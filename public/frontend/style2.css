@@ -1,0 +1,71 @@
+body
+{
+   margin: 0;
+   padding: 0;
+   font-family: sans-serif;
+   background-image: url(img/bg-img/pexels-dzenina-lukac-754263.jpg);
+   display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+} 
+
+img {
+  opacity: 1;
+  width: 80px;
+margin-top: -50px;
+}
+
+
+
+#sign-up-form
+{   
+   background: rgba(0, 0, 0, 0.7);
+  padding: 20px 15px;
+  min-height: 250px;
+   
+
+}
+#sign-up-form h1
+{
+	color: #FBFCC1;
+	margin-bottom: 30px;
+	text-align: center;
+}
+.input-box
+{
+  display: block;
+  outline: none;
+  padding: 15px 10px;
+  margin: 30px;
+  background: none;
+  color: white;
+  width: 200px;
+  transition: border-color 1s;
+    
+}
+.signUp-btn
+{
+	background-color: #FBFCC1;
+}
+button
+{
+	color: #FBFCC1;
+	width: 100%;
+	padding: 10px;
+	border-radius: 20px;
+	font-size: 15px;
+	margin: 10px 0;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	opacity: 1;
+	background-color: #FBFCC1;
+
+
+
+}
