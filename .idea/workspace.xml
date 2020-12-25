@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c674b53b-6d1b-49a7-af28-74683b70dd0c" name="Default Changelist" comment="1">
+    <list default="true" id="c674b53b-6d1b-49a7-af28-74683b70dd0c" name="Default Changelist" comment="2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/signup.blade.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/signup.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/signup.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,6 +169,7 @@
       <workItem from="1608818581091" duration="311000" />
       <workItem from="1608818903610" duration="223000" />
       <workItem from="1608819231091" duration="170000" />
+      <workItem from="1608913000254" duration="4189000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1608823343885</created>
@@ -173,17 +178,36 @@
       <option name="project" value="LOCAL" />
       <updated>1608823343885</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="2">
+      <created>1608835251042</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1608835251042</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
     <MESSAGE value="1" />
-    <option name="LAST_COMMIT_MESSAGE" value="1" />
+    <MESSAGE value="2" />
+    <option name="LAST_COMMIT_MESSAGE" value="2" />
   </component>
 </project>

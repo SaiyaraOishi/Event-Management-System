@@ -75,7 +75,7 @@
 <section class="welcome-area">
     <div class="welcome-slides owl-carousel">
         <!-- Single Slide -->
-        <div class="single-welcome-slide bg-img bg-overlay" style="background-image: url(img/bg-img/64.jpg);">
+        <div class="single-welcome-slide bg-img bg-overlay" style="background-image: url(../frontend/img/bg-img/64.jpg);">
             <div class="container h-100">
                 <div class="row h-100 align-items-center">
                     <!-- Welcome Text -->
@@ -86,7 +86,7 @@
                             <p data-animation="bounceInDown" data-delay="500ms">Getting tired of planning your events? Is finding a good party planner becoming tough for you? Don't worry Evager has got you covered. Select from our wide variety of party planning service providers and confirm your deals with just one click!
                             </p>
                             <div class="hero-btn-group" data-animation="bounceInDown" data-delay="100ms">
-                                <a href="#" class="btn alime-btn mb-3 mb-sm-0 mr-4">Sign Up</a><a href="index.html" class="btn alime-btn mb-3 mb-sm-0 mr-4">Login</a>
+                                <a href="../frontend/signupform" class="btn alime-btn mb-3 mb-sm-0 mr-4">Sign Up</a><a href="../frontend/signinform" class="btn alime-btn mb-3 mb-sm-0 mr-4">Login</a>
                             </div>
 
 
@@ -97,7 +97,7 @@
         </div>
 
         <!-- Single Slide -->
-        <div class="single-welcome-slide bg-img bg-overlay" style="background-image: url(img/bg-img/65.jpg);">
+        <div class="single-welcome-slide bg-img bg-overlay" style="background-image: url(../frontend/img/bg-img/65.jpg);">
             <div class="container h-100">
                 <div class="row h-100 align-items-center">
                     <!-- Welcome Text -->
@@ -108,7 +108,7 @@
                             <p data-animation="bounceInDown" data-delay="500ms">Getting tired of planning your events? Is finding a good party planner becoming tough for you? Don't worry Evager has got you covered. Select from our wide variety of party planning service providers and confirm your deals with just one click!
                             </p>
                             <div class="hero-btn-group" data-animation="bounceInDown" data-delay="100ms">
-                                <a href="#" class="btn alime-btn mb-3 mb-sm-0 mr-4">Sign Up</a><a href="index.html" class="btn alime-btn mb-3 mb-sm-0 mr-4">Login</a>
+                                <a href="../frontend/signupform.html" class="btn alime-btn mb-3 mb-sm-0 mr-4">Sign Up</a><a href="../frontend/signinform.html" class="btn alime-btn mb-3 mb-sm-0 mr-4">Login</a>
                             </div>
 
 
@@ -143,9 +143,9 @@
             <!-- Single Gallery Item -->
             <div class="col-12 col-sm-6 col-lg-3 single_gallery_item birthday mb-30 wow fadeInUp" data-wow-delay="100ms">
                 <div class="single-portfolio-content">
-                    <img src="img/bg-img/b1.jpg" alt="">
+                    <img src="../frontend/img/bg-img/b1.jpg" alt="">
                     <div class="hover-content">
-                        <a href="img/bg-img/b1.jpg" class="portfolio-img">+</a>
+                        <a href="../frontend/img/bg-img/b1.jpg" class="portfolio-img">+</a>
                     </div>
                 </div>
             </div>
@@ -153,9 +153,9 @@
             <!-- Single Gallery Item -->
             <div class="col-12 col-sm-6 col-lg-3 single_gallery_item video concert mb-30 wow fadeInUp" data-wow-delay="300ms">
                 <div class="single-portfolio-content">
-                    <img src="img/bg-img/c1.jpg" alt="">
+                    <img src="../frontend/img/bg-img/c1.jpg" alt="">
                     <div class="hover-content">
-                        <a href="img/bg-img/c1.jpg" class="portfolio-img">+</a>
+                        <a href="../frontend/img/bg-img/c1.jpg" class="portfolio-img">+</a>
                     </div>
                 </div>
             </div>
@@ -163,18 +163,18 @@
             <!-- Single Gallery Item -->
             <div class="col-12 col-sm-6 col-lg-3 single_gallery_item wedding mb-30 wow fadeInUp" data-wow-delay="500ms">
                 <div class="single-portfolio-content">
-                    <img src="img/bg-img/w4.jpg" alt="">
+                    <img src="../frontend/img/bg-img/w4.jpg" alt="">
                     <div class="hover-content">
-                        <a href="img/bg-img/w4.jpg" class="portfolio-img">+</a>
+                        <a href="../frontend/img/bg-img/w4.jpg" class="portfolio-img">+</a>
                     </div>
                 </div>
             </div>
 
             <div class="col-12 col-sm-6 col-lg-3 single_gallery_item birthday mb-30 wow fadeInUp" data-wow-delay="100ms">
                 <div class="single-portfolio-content">
-                    <img src="img/bg-img/b4.jpg" alt="">
+                    <img src="../frontend/img/bg-img/b4.jpg" alt="">
                     <div class="hover-content">
-                        <a href="img/bg-img/b4.jpg" class="portfolio-img">+</a>
+                        <a href="../frontend/img/bg-img/b4.jpg" class="portfolio-img">+</a>
                     </div>
                 </div>
             </div>
@@ -182,9 +182,9 @@
             <!-- Single Gallery Item -->
             <div class="col-12 col-sm-6 col-lg-3 single_gallery_item concert mb-30 wow fadeInUp" data-wow-delay="700ms">
                 <div class="single-portfolio-content">
-                    <img src="img/bg-img/c2.jpg" alt="">
+                    <img src="../frontend/img/bg-img/c2.jpg" alt="">
                     <div class="hover-content">
-                        <a href="img/bg-img/c2.jpg" class="portfolio-img">+</a>
+                        <a href="../frontend/img/bg-img/c2.jpg" class="portfolio-img">+</a>
                     </div>
                 </div>
             </div>
@@ -192,9 +192,9 @@
             <!-- Single Gallery Item -->
             <div class="col-12 col-sm-6 col-lg-3 single_gallery_item birthday mb-30 wow fadeInUp" data-wow-delay="100ms">
                 <div class="single-portfolio-content">
-                    <img src="img/bg-img/b5.jpg" alt="">
+                    <img src="../frontend/img/bg-img/b5.jpg" alt="">
                     <div class="hover-content">
-                        <a href="img/bg-img/b5.jpg" class="portfolio-img">+</a>
+                        <a href="../frontend/img/bg-img/b5.jpg" class="portfolio-img">+</a>
                     </div>
                 </div>
             </div>
@@ -202,9 +202,9 @@
             <!-- Single Gallery Item -->
             <div class="col-12 col-sm-6 col-lg-3 single_gallery_item video wedding mb-30 wow fadeInUp" data-wow-delay="300ms">
                 <div class="single-portfolio-content">
-                    <img src="img/bg-img/w6.jpg" alt="">
+                    <img src="../frontend/img/bg-img/w6.jpg" alt="">
                     <div class="hover-content">
-                        <a href="img/bg-img/w6.jpg" class="portfolio-img">+</a>
+                        <a href="../frontend/img/bg-img/w6.jpg" class="portfolio-img">+</a>
                     </div>
                 </div>
             </div>
@@ -212,9 +212,9 @@
             <!-- Single Gallery Item -->
             <div class="col-12 col-sm-6 col-lg-3 single_gallery_item concert mb-30 wow fadeInUp" data-wow-delay="500ms">
                 <div class="single-portfolio-content">
-                    <img src="img/bg-img/c3.jpg" alt="">
+                    <img src="../frontend/img/bg-img/c3.jpg" alt="">
                     <div class="hover-content">
-                        <a href="img/bg-img/c3.jpg" class="portfolio-img">+</a>
+                        <a href="../frontend/img/bg-img/c3.jpg" class="portfolio-img">+</a>
                     </div>
                 </div>
             </div>
@@ -222,9 +222,9 @@
             <!-- Single Gallery Item -->
             <div class="col-12 col-sm-6 col-lg-3 single_gallery_item birthday mb-30 wow fadeInUp" data-wow-delay="700ms">
                 <div class="single-portfolio-content">
-                    <img src="img/bg-img/b3.jpg" alt="">
+                    <img src="../frontend/img/bg-img/b3.jpg" alt="">
                     <div class="hover-content">
-                        <a href="img/bg-img/b3.jpg" class="portfolio-img">+</a>
+                        <a href="../frontend/img/bg-img/b3.jpg" class="portfolio-img">+</a>
                     </div>
                 </div>
             </div>
@@ -232,9 +232,9 @@
             <!-- Single Gallery Item -->
             <div class="col-12 col-sm-6 col-lg-3 single_gallery_item meeting mb-30 wow fadeInUp" data-wow-delay="700ms">
                 <div class="single-portfolio-content">
-                    <img src="img/bg-img/m4.jpg" alt="">
+                    <img src="../frontend/img/bg-img/m4.jpg" alt="">
                     <div class="hover-content">
-                        <a href="img/bg-img/m4.jpg" class="portfolio-img">+</a>
+                        <a href="../frontend/img/bg-img/m4.jpg" class="portfolio-img">+</a>
                     </div>
                 </div>
             </div>
@@ -242,9 +242,9 @@
             <!-- Single Gallery Item -->
             <div class="col-12 col-sm-6 col-lg-3 single_gallery_item video wedding mb-30 wow fadeInUp" data-wow-delay="100ms">
                 <div class="single-portfolio-content">
-                    <img src="img/bg-img/w2.jpg" alt="">
+                    <img src="../frontend/img/bg-img/w2.jpg" alt="">
                     <div class="hover-content">
-                        <a href="img/bg-img/w2.jpg" class="portfolio-img">+</a>
+                        <a href="../frontend/img/bg-img/w2.jpg" class="portfolio-img">+</a>
                     </div>
                 </div>
             </div>
@@ -252,9 +252,9 @@
             <!-- Single Gallery Item -->
             <div class="col-12 col-sm-6 col-lg-3 single_gallery_item meeting mb-30 wow fadeInUp" data-wow-delay="700ms">
                 <div class="single-portfolio-content">
-                    <img src="img/bg-img/m3.jpg" alt="">
+                    <img src="../frontend/img/bg-img/m3.jpg" alt="">
                     <div class="hover-content">
-                        <a href="img/bg-img/m3.jpg" class="portfolio-img">+</a>
+                        <a href="../frontend/img/bg-img/m3.jpg" class="portfolio-img">+</a>
                     </div>
                 </div>
             </div>
@@ -262,9 +262,9 @@
             <!-- Single Gallery Item -->
             <div class="col-12 col-sm-6 col-lg-3 single_gallery_item concert mb-30 wow fadeInUp" data-wow-delay="300ms">
                 <div class="single-portfolio-content">
-                    <img src="img/bg-img/c4.jpg" alt="">
+                    <img src="../frontend/img/bg-img/c4.jpg" alt="">
                     <div class="hover-content">
-                        <a href="img/bg-img/c4.jpg" class="portfolio-img">+</a>
+                        <a href="../frontend/img/bg-img/c4.jpg" class="portfolio-img">+</a>
                     </div>
                 </div>
             </div>
@@ -272,9 +272,9 @@
             <!-- Single Gallery Item -->
             <div class="col-12 col-sm-6 col-lg-3 single_gallery_item meeting mb-30 wow fadeInUp" data-wow-delay="700ms">
                 <div class="single-portfolio-content">
-                    <img src="img/bg-img/m2.jpg" alt="">
+                    <img src="../frontend/img/bg-img/m2.jpg" alt="">
                     <div class="hover-content">
-                        <a href="img/bg-img/m2.jpg" class="portfolio-img">+</a>
+                        <a href="../frontend/img/bg-img/m2.jpg" class="portfolio-img">+</a>
                     </div>
                 </div>
             </div>
@@ -282,9 +282,9 @@
             <!-- Single Gallery Item -->
             <div class="col-12 col-sm-6 col-lg-3 single_gallery_item wedding mb-30 wow fadeInUp" data-wow-delay="500ms">
                 <div class="single-portfolio-content">
-                    <img src="img/bg-img/w1.jpg" alt="">
+                    <img src="../frontend/img/bg-img/w1.jpg" alt="">
                     <div class="hover-content">
-                        <a href="img/bg-img/w1.jpg" class="portfolio-img">+</a>
+                        <a href="../frontend/img/bg-img/w1.jpg" class="portfolio-img">+</a>
                     </div>
                 </div>
             </div>
@@ -292,9 +292,9 @@
             <!-- Single Gallery Item -->
             <div class="col-12 col-sm-6 col-lg-3 single_gallery_item meeting mb-30 wow fadeInUp" data-wow-delay="700ms">
                 <div class="single-portfolio-content">
-                    <img src="img/bg-img/m1.jpg" alt="">
+                    <img src="../frontend/img/bg-img/m1.jpg" alt="">
                     <div class="hover-content">
-                        <a href="img/bg-img/m1.jpg" class="portfolio-img">+</a>
+                        <a href="../frontend/img/bg-img/m1.jpg" class="portfolio-img">+</a>
                     </div>
                 </div>
             </div>
@@ -316,38 +316,38 @@
 <div class="instragram-feed-area owl-carousel">
     <!-- Single Instagram Item -->
     <div class="single-instagram-item">
-        <img src="img/bg-img/v10.jpg" alt="">
+        <img src="../frontend/img/bg-img/v10.jpg" alt="">
         <div class="instagram-hover-content text-center d-flex align-items-center justify-content-center">
         </div>
     </div>
     <!-- Single Instagram Item -->
     <div class="single-instagram-item">
-        <img src="img/bg-img/v3.jpg" alt="">
+        <img src="../frontend/img/bg-img/v3.jpg" alt="">
         <div class="instagram-hover-content text-center d-flex align-items-center justify-content-center">
         </div>
     </div>
     <!-- Single Instagram Item -->
     <div class="single-instagram-item">
-        <img src="img/bg-img/v5.jpg" alt="">
+        <img src="../frontend/img/bg-img/v5.jpg" alt="">
         <div class="instagram-hover-content text-center d-flex align-items-center justify-content-center">
         </div>
     </div>
     <!-- Single Instagram Item -->
     <div class="single-instagram-item">
-        <img src="img/bg-img/v8.jpg" alt="">
+        <img src="../frontend/img/bg-img/v8.jpg" alt="">
         <div class="instagram-hover-content text-center d-flex align-items-center justify-content-center">
         </div>
     </div>
     <!-- Single Instagram Item -->
     <div class="single-instagram-item">
-        <img src="img/bg-img/v7.jpg" alt="">
+        <img src="../frontend/img/bg-img/v7.jpg" alt="">
         <div class="instagram-hover-content text-center d-flex align-items-center justify-content-center">
         </div>
     </div>
 
     <!-- Single Instagram Item -->
     <div class="single-instagram-item">
-        <img src="img/bg-img/v28.jpg" alt="">
+        <img src="../frontend/img/bg-img/v28.jpg" alt="">
         <div class="instagram-hover-content text-center d-flex align-items-center justify-content-center">
         </div>
     </div>
@@ -390,5 +390,3 @@
 </body>
 
 </html>
-
-{{--hello--}}
