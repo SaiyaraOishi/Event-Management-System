@@ -21,16 +21,15 @@ Auth::routes();
 Route::get('/', function () {
     return view('signup');
 });
-
 Route::get('/home', 'HomeController@index')->name('home');
 
 
 Route::get('/login', function () {
-    return view('login');
-});
+    return view('auth/login');
+})->name('login');
 Route::get('/register', function () {
-    return view('register');
-});
+    return view('auth/register');
+})->name('register');
 Route::get('/index', function () {
     return view('index');
 });
