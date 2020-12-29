@@ -1,3 +1,4 @@
+{{--@extends('layouts.app')--}}
 <!DOCTYPE html>
 <html lang="en">
 
@@ -61,35 +62,44 @@
                             <span class="navbarToggler"><span></span><span></span><span></span></span>
                         </div>
 
+
                         <!-- Menu -->
                         <div class="classy-menu">
                             <!-- Menu Close Button -->
                             <div class="classycloseIcon">
                                 <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
                             </div>
+
                             <!-- Nav Start -->
                             <div class="classynav">
                                 <ul id="nav">
+
                                     <li class="active"><a href="./index.html">Home</a></li>
                                     <li><a href="#">Pages</a>
                                         <ul class="dropdown">
+
                                             <li><a href="./venue.html">- Venue</a></li>
                                             <li><a href="./caterer.html">- Caterer</a></li>
-                                            <li><a href="./photographer.html">- Photographer</a></li> 
+                                            <li><a href="./photographer.html">- Photographer</a></li>
                                             <li><a href="./beautician.html">- Beautician</a></li>
                                             <li><a href="./decorator.html">- Decorator</a></li>
 											<li><a href="./card_print.html">- Card Printer</a></li>
+
+
+
                                         </ul>
                                     </li>
                                     <li><a href="./about.html">About</a></li>
                                     <li><a href="./gallery.html">Gallery</a></li>
 									<li><a href="./cart.html">Your Cart</a></li>
                                     <li><a href="./contact.html">Contact</a></li>
+
                                 </ul>
 
                                 <!-- Search Icon -->
                                 <div class="search-icon" data-toggle="modal" data-target="#searchModal"><i class="ti-search"></i></div>
                             </div>
+
                             <!-- Nav End -->
                         </div>
                     </nav>
@@ -111,9 +121,9 @@
                             <div class="welcome-text">
                                 <h2 data-animation="bounceInDown" data-delay="900ms">Evager</h2><br>
 								<h3 data-animation="bounceInDown" data-delay="900ms"style="color:white;">Event Management System</h3>
-                     
+
                                 <div class="hero-btn-group" data-animation="bounceInDown" data-delay="100ms">
-                              
+
                                     <a class="hero-mail-contact" href="evagger@gmail.com">evager@gmail.com</a>
                                 </div>
                             </div>
@@ -131,12 +141,12 @@
 						<div class="welcome-text">
                                 <h2 data-animation="bounceInDown" data-delay="900ms">Evager</h2><br>
 								<h3 data-animation="bounceInDown" data-delay="900ms"style="color:white;">Event Management System</h3>
-                     
+
                                 <div class="hero-btn-group" data-animation="bounceInDown" data-delay="100ms">
                                     <a class="hero-mail-contact" href="evagger@gmail.com">evager@gmail.com</a>
                                 </div>
                             </div>
-                            
+
                             </div>
                         </div>
                     </div>
@@ -194,7 +204,7 @@
                         </div>
                     </div>
                 </div>
-				
+
 				<div class="col-12 col-sm-6 col-lg-3 single_gallery_item birthday mb-30 wow fadeInUp" data-wow-delay="100ms">
                     <div class="single-portfolio-content">
                         <img src="../frontend/img/bg-img/b4.jpg" alt="">
@@ -253,7 +263,7 @@
                         </div>
                     </div>
                 </div>
-				
+
 				<!-- Single Gallery Item -->
                 <div class="col-12 col-sm-6 col-lg-3 single_gallery_item meeting mb-30 wow fadeInUp" data-wow-delay="700ms">
                     <div class="single-portfolio-content">
@@ -273,7 +283,7 @@
                         </div>
                     </div>
                 </div>
-				
+
 				<!-- Single Gallery Item -->
                 <div class="col-12 col-sm-6 col-lg-3 single_gallery_item meeting mb-30 wow fadeInUp" data-wow-delay="700ms">
                     <div class="single-portfolio-content">
@@ -293,7 +303,7 @@
                         </div>
                     </div>
                 </div>
-				
+
 				<!-- Single Gallery Item -->
                 <div class="col-12 col-sm-6 col-lg-3 single_gallery_item meeting mb-30 wow fadeInUp" data-wow-delay="700ms">
                     <div class="single-portfolio-content">
@@ -324,7 +334,7 @@
                     </div>
                 </div>
             </div>
-			
+
 
             <div class="row">
                 <div class="col-12 text-center wow fadeInUp" data-wow-delay="800ms">
@@ -333,8 +343,8 @@
             </div>
         </div>
     </div>
-	
-	
+
+
     <!-- Gallery Area End -->
 
         <!-- Instagram Feed Area -->
@@ -342,40 +352,40 @@
             <!-- Single Instagram Item -->
             <div class="single-instagram-item">
                 <img src="../frontend/img/bg-img/v10.jpg" alt="">
-                <div class="instagram-hover-content text-center d-flex align-items-center justify-content-center">     
+                <div class="instagram-hover-content text-center d-flex align-items-center justify-content-center">
                 </div>
             </div>
             <!-- Single Instagram Item -->
             <div class="single-instagram-item">
                 <img src="../frontend/img/bg-img/v3.jpg" alt="">
-                <div class="instagram-hover-content text-center d-flex align-items-center justify-content-center">     
+                <div class="instagram-hover-content text-center d-flex align-items-center justify-content-center">
                 </div>
             </div>
             <!-- Single Instagram Item -->
             <div class="single-instagram-item">
                 <img src="../frontend/img/bg-img/v5.jpg" alt="">
-                <div class="instagram-hover-content text-center d-flex align-items-center justify-content-center">     
+                <div class="instagram-hover-content text-center d-flex align-items-center justify-content-center">
                 </div>
             </div>
 			<!-- Single Instagram Item -->
             <div class="single-instagram-item">
                 <img src="../frontend/img/bg-img/v8.jpg" alt="">
-                <div class="instagram-hover-content text-center d-flex align-items-center justify-content-center">     
+                <div class="instagram-hover-content text-center d-flex align-items-center justify-content-center">
                 </div>
             </div>
 			<!-- Single Instagram Item -->
             <div class="single-instagram-item">
                 <img src="../frontend/img/bg-img/v7.jpg" alt="">
-                <div class="instagram-hover-content text-center d-flex align-items-center justify-content-center">     
+                <div class="instagram-hover-content text-center d-flex align-items-center justify-content-center">
                 </div>
             </div>
-			
+
 			<!-- Single Instagram Item -->
             <div class="single-instagram-item">
                 <img src="../frontend/img/bg-img/v28.jpg" alt="">
-                <div class="instagram-hover-content text-center d-flex align-items-center justify-content-center">     
+                <div class="instagram-hover-content text-center d-flex align-items-center justify-content-center">
                 </div>
-            </div>	
+            </div>
         </div>
     </div>
     <!-- Follow Area End -->
@@ -391,7 +401,7 @@
                             <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->Thanks for visting! </p>
                         </div>
                         <!-- Footer Logo -->
-                   
+
                     </div>
                 </div>
             </div>
