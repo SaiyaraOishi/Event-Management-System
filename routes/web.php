@@ -16,20 +16,23 @@ use Illuminate\Support\Facades\Route;
 // Route::get('/', function () {
 //     return view('welcome');
 // });
+Route::get('/', function () {
+    return view('signup');
+});
 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Route::get('/', function () {
-    return view('signup');
-});
 Route::get('/login', function () {
-    return view('login');
-});
+    return view('auth/login');
+})->name('login');
 Route::get('/register', function () {
-    return view('register');
-});
+    return view('auth/register');
+})->name('register');
+
+//Route::get('/register', 'App\Http\Controllers\Auth\RegisterController@create')->name('register');
+
 Route::get('/index', function () {
     return view('index');
 });
