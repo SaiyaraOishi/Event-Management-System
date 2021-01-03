@@ -78,21 +78,22 @@
                                     <li><a href="#">Pages</a>
                                         <ul class="dropdown">
 
-                                            <li><a href="./venue"> Venue</a></li>
-                                            <li><a href="./caterer"> Caterer</a></li>
-                                            <li><a href="./photographer"> Photographer</a></li>
-                                            <li><a href="./beautician"> Beautician</a></li>
-                                            <li><a href="./decorator"> Decorator</a></li>
-											<li><a href="./card_print"> Card Printer</a></li>
+                                            <li><a href="../frontend/venue"> Venue</a></li>
+                                            <li><a href="../frontend/venue"> Venue</a></li>
+                                            <li><a href="../frontend/caterer"> Caterer</a></li>
+                                            <li><a href="../frontend/photographer"> Photographer</a></li>
+                                            <li><a href="../frontend/beautician"> Beautician</a></li>
+                                            <li><a href="../frontend/decorator"> Decorator</a></li>
+											<li><a href="../frontend/card_print"> Card Printer</a></li>
 
 
 
                                         </ul>
                                     </li>
-                                    <li><a href="./about">About</a></li>
-                                    <li><a href="./gallery">Gallery</a></li>
-									<li><a href="./cart">Your Cart</a></li>
-                                    <li><a href="./contact">Contact</a></li>
+                                    <li><a href="../frontend/about">About</a></li>
+                                    <li><a href="../frontend/gallery">Gallery</a></li>
+									<li><a href="../frontend/cart">Your Cart</a></li>
+                                    <li><a href="../frontend/contact">Contact</a></li>
 
                                 </ul>
 
@@ -133,7 +134,7 @@
             </div>
 
             <!-- Single Slide -->
-            <div class="single-welcome-slide bg-img bg-overlay" style="background-image: url(../frontend/img/bg-img/ss.jpg);">
+            <div class="single-welcome-slide bg-img bg-overlay" style="background-image: url(../frontend/img/bg-img/">
                 <div class="container h-100">
                     <div class="row h-100 align-items-center">
                         <!-- Welcome Text -->

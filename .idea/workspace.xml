@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c674b53b-6d1b-49a7-af28-74683b70dd0c" name="Default Changelist" comment="can have index page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/venue.blale.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/venue.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,7 +171,8 @@
       <workItem from="1609250680837" duration="1946000" />
       <workItem from="1609347182910" duration="1478000" />
       <workItem from="1609660487391" duration="2052000" />
-      <workItem from="1609685812512" duration="1177000" />
+      <workItem from="1609685812512" duration="1744000" />
+      <workItem from="1609687774113" duration="1924000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1608823343885</created>
@@ -218,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609252760763</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="html">
+      <created>1609687090026</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1609687090026</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,7 +250,8 @@
     <MESSAGE value="signup page a image successful" />
     <MESSAGE value="login and resister successful" />
     <MESSAGE value="can have index page" />
-    <option name="LAST_COMMIT_MESSAGE" value="can have index page" />
+    <MESSAGE value="html" />
+    <option name="LAST_COMMIT_MESSAGE" value="html" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
