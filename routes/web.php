@@ -16,13 +16,13 @@ use Illuminate\Support\Facades\Route;
 // Route::get('/', function () {
 //     return view('welcome');
 // });
+
+Auth::routes();
 Route::get('/', function () {
     return view('signup');
 });
-
-Auth::routes();
-
 Route::get('/home', 'HomeController@index')->name('home');
+
 
 Route::get('/login', function () {
     return view('auth/login');
@@ -30,36 +30,34 @@ Route::get('/login', function () {
 Route::get('/register', function () {
     return view('auth/register');
 })->name('register');
-
-//Route::get('/register', 'App\Http\Controllers\Auth\RegisterController@create')->name('register');
-
 Route::get('/index', function () {
     return view('index');
 });
 Route::get('/about', function () {
-    return view('about');
+    return view('/layouts/about');
 });
 Route::get('/gallery', function () {
-    return view('gallery');
+    return view('/layouts/gallery');
 });
 Route::get('/card_print', function () {
-    return view('card_print');
+    return view('/layouts/card_print');
 });
 Route::get('/beautician', function () {
-    return view('beautician');
+    return view('/layouts/beautician');
 });
-Route::get('/vanuer', function () {
-    return view('vanue');
+Route::get('/venue', function () {
+    return view('/layouts/venue');
 });
 Route::get('/photographer', function () {
-    return view('photographer');
+    return view('/layouts/photographer');
 });
 Route::get('/decorator', function () {
-    return view('decorator');
+    return view('/layouts/decorator');
 });
 Route::get('/caterer', function () {
-    return view('caterer');
+    return view('/layouts/caterer');
 });
 Route::get('/cart', function () {
-    return view('cart');
+    return view('/layouts/cart');
 });
+//hello
