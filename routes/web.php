@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\OrderBookingController;
 use App\Http\Controllers\ServiceproviderregisterController;
+use App\Http\Controllers\serviceproviderlogin;
 
 /*
 |--------------------------------------------------------------------------
@@ -69,4 +70,10 @@ Route::post('book',[OrderBookingController::class,'index'])->name('OrderBookingC
 Route::get('/serviceproviderRegister', function () {
     return view('/layouts/serviceproviderRegister');
 });
+Route::get('/serviceproviderlogin', function () {
+    return view('/layouts/serviceproviderlogin');
+});
+
 Route::post('spregister',[ServiceproviderregisterController::class,'index'])->name('ServiceproviderregisterController.spregister');
+Route::post('splogin',[serviceproviderlogin::class,'index'])->name('Serviceproviderlogin.splogin');
+//Route::post('splogin',[serviceproviderlogin::class,'validate'])->name('Serviceproviderlogin.splogin');
