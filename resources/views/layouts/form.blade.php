@@ -8,7 +8,11 @@
 
 {{--                <form class="form-horizontal form-label-left" method="POST" action="{{ route('order_booking') }}">--}}
 
-<form class="form-horizontal form-label-left">
+<form action="book" method="POST" class="form-horizontal form-label-left">
+
+                @csrf
+
+
                     <div class="form-group">
                         <label class="control-label col-md-3 col-sm-3 col-xs-12">Name </label>
                         <div class="col-md-4 col-sm-6 col-xs-12">
@@ -33,14 +37,24 @@
                     <div class="form-group">
                         <label class="control-label col-md-3 col-sm-3 col-xs-12">Date </label>
                         <div class="col-md-4 col-sm-6 col-xs-12">
-                            <input type="text" name="institution" class="form-control" placeholder="" required="required">
+                            <input type="text" name="date" class="form-control" placeholder="" required="required">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="control-label col-md-3 col-sm-3 col-xs-12">Venue Name </label>
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                            <input type="text" name="venue_name" class="form-control" placeholder="" required="required">
                         </div>
                     </div>
 
 
-
-
-
+                    <div class="form-group">
+                        <label class="control-label col-md-3 col-sm-3 col-xs-12">Venue Address </label>
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                            <input type="text" name="venue_address" class="form-control" placeholder="" required="required">
+                        </div>
+                    </div>
 
 
                     <div class="ln_solid"></div>
