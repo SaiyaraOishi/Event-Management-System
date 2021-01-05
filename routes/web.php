@@ -60,4 +60,10 @@ Route::get('/caterer', function () {
 Route::get('/cart', function () {
     return view('/layouts/cart');
 });
-//hello
+Route::get('/form', function () {
+    return view('/layouts/form');
+});
+//Route::get('/events/ict_olympiad_selected', function () {
+//    $io = OrderBooking::where('selected','True')->get();
+//    return view('front_end/selected_io')->with('ios',$io);
+//})->name('selected_io');
