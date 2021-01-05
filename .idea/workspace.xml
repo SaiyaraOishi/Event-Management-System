@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c674b53b-6d1b-49a7-af28-74683b70dd0c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/order_booking.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/OrderBookingController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/OrderBookingController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/form.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/form.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_12_30_164721_create_services_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_12_30_165828_create_order_bookings_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_12_30_170020_create_events_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_12_30_170304_create_order_bookings_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_12_30_170304_create_order_bookings_table.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,7 +181,7 @@
       <workItem from="1609588305983" duration="212000" />
       <workItem from="1609685593288" duration="4482000" />
       <workItem from="1609765762159" duration="1260000" />
-      <workItem from="1609841685833" duration="3641000" />
+      <workItem from="1609841685833" duration="7906000" />
     </task>
     <task id="LOCAL-00001" summary="Linking Up Pages">
       <created>1608964807057</created>
@@ -203,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609690389780</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="DB connection">
+      <created>1609845390033</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1609845390033</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,7 +223,8 @@
     </ignored-roots>
     <MESSAGE value="Linking Up Pages" />
     <MESSAGE value="DB tables and controllers" />
-    <option name="LAST_COMMIT_MESSAGE" value="DB tables and controllers" />
+    <MESSAGE value="DB connection" />
+    <option name="LAST_COMMIT_MESSAGE" value="DB connection" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

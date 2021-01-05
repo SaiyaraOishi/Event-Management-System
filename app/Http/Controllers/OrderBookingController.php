@@ -12,9 +12,20 @@ class OrderBookingController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index(Request $request)
     {
-        return "Order Confirmed";
+        $order=new OrderBooking;
+        $order->name = $request->name;
+        $order->contact_number = $request->contact;
+        $order->email = $request->email;
+        $order->date = $request->date;
+        $order->venue_name = $request->venue_name;
+        $order->venue_address = $request->venue_address;
+        $query=$order->save();
+        if($query){
+            return "Order Confirmed!!!";
+        }
+
     }
 
     /**

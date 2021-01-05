@@ -15,6 +15,12 @@ class CreateOrderBookingsTable extends Migration
     {
         Schema::create('order_bookings', function (Blueprint $table) {
             $table->id();
+            $table->text('name');
+            $table->text('contact_number');
+            $table->text('email');
+            $table->text('date');
+            $table->text('venue_name');
+            $table->text('venue_address');
             $table->timestamps();
         });
     }
