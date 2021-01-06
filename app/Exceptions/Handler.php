@@ -45,11 +45,14 @@ class Handler extends ExceptionHandler
      * @param  \Illuminate\Http\Request  $request
      * @param  \Throwable  $exception
      * @return \Symfony\Component\HttpFoundation\Response
-     *
      * @throws \Throwable
      */
-    public function render($request, Throwable $exception)
-    {
-        return parent::render($request, $exception);
+    public function render($request, Throwable $e) {
+        if (config('app.debug') && ! $request->ajax()) {
+            $whoops = new \Whoops\Run;
+            $whoops->pushHandler(new \Whoops\Handler\PrettyPageHandler);
+            return $whoops->handleException($e);
+        }
+        return parent::render($request, $e);
     }
 }
