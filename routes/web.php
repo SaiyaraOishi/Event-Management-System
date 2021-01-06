@@ -64,6 +64,9 @@ Route::get('/cart', function () {
 Route::get('/form', function () {
     return view('/layouts/form');
 });
+Route::get('/dreamwaver_booking', function () {
+    return view('/layouts/dreamwaver_booking');
+});
 Route::post('book',[OrderBookingController::class,'index'])->name('OrderBookingController.book');
 //Route::get('/events/ict_olympiad_selected', function () {
 //    $io = OrderBooking::where('selected','True')->get();
