@@ -66,21 +66,21 @@
                             <!-- Nav Start -->
                             <div class="classynav">
                                 <ul id="nav">
-                                    <li><a href="./index.html">Home</a></li>
+                                    <li><a href="./index">Home</a></li>
                                     <li><a href="#">Pages</a>
                                         <ul class="dropdown">
-                                            <li><a href="./venue.html">- Venue</a></li>
-                                            <li><a href="./caterer.html">- Caterer</a></li>
-                                            <li><a href="./photographer.html">- Photographer</a></li> 
-                                            <li><a href="./beautician.html">- Beautician</a></li>
-                                            <li><a href="./decorator.html">- Decorator</a></li>
-											<li><a href="./card_print.html">- Card Printer</a></li>
+                                            <li><a href="../frontend/venue">- Venue</a></li>
+                                            <li><a href="../frontend/caterer">- Caterer</a></li>
+                                            <li><a href="../frontend/photographer">- Photographer</a></li>
+                                            <li><a href="../frontend/beautician">- Beautician</a></li>
+                                            <li><a href="../frontend/decorator">- Decorator</a></li>
+											<li><a href="../frontend/card_print">- Card Printer</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="./about.html">About</a></li>
-                                    <li><a href="./gallery.html">Gallery</a></li>
-									<li><a href="./cart.html">Your Cart</a></li>
-                                    <li><a href="./contact.html">Contact</a></li>
+                                    <li><a href="../frontend/about">About</a></li>
+                                    <li><a href="../frontend/gallery">Gallery</a></li>
+									<li><a href="../frontend/cart">Your Cart</a></li>
+                                    <li><a href="../frontend/contact">Contact</a></li>
                                 </ul>
 
                                 <!-- Search Icon -->
@@ -104,7 +104,7 @@
                         <h2 class="page-title">Photographer</h2>
                         <nav aria-label="breadcrumb">
                             <ol class="breadcrumb justify-content-center">
-                                <li class="breadcrumb-item"><a href="index.html"><i class="icon_house_alt"></i> Home</a></li>
+                                <li class="breadcrumb-item"><a href="../frontend/index"><i class="icon_house_alt"></i> Home</a></li>
                                 <li class="breadcrumb-item active" aria-current="page">Photographer</li>
                             </ol>
                         </nav>
@@ -129,7 +129,7 @@
 						<p class="wow fadeInUp" data-wow-delay="300ms">4 hrs Per Event</p>
 						<p class="wow fadeInUp" data-wow-delay="300ms">15000 BDT</p>
                         <a class="btn alime-btn btn-2 mt-30 wow fadeInUp" data-wow-delay="500ms" href="#">Booking Now!</a>  <a class="btn alime-btn btn-2 mt-30 wow fadeInUp" data-wow-delay="500ms" href="#">Add to Cart</a>
-             
+
                     </div>
                 </div>
                 <div class="col-12 col-lg-6">
@@ -153,8 +153,8 @@ dreamweaverphotography.bd@gmail.com</P>
 						<p class="wow fadeInUp" data-wow-delay="300ms">4 hrs Per Event</p>
 						<p class="wow fadeInUp" data-wow-delay="300ms">32500 BDT</p>
 
-                        <a class="btn alime-btn btn-2 mt-30 wow fadeInUp" data-wow-delay="500ms" href="#">Booking Now!</a>  <a class="btn alime-btn btn-2 mt-30 wow fadeInUp" data-wow-delay="500ms" href="#">Add to Cart</a>
-             
+                        <a class="btn alime-btn btn-2 mt-30 wow fadeInUp" data-wow-delay="500ms" href="../frontend/dreamwaver_booking">Booking Now!</a>  <a class="btn alime-btn btn-2 mt-30 wow fadeInUp" data-wow-delay="500ms" href="#">Add to Cart</a>
+
                     </div>
                 </div>
                 <div class="col-12 col-lg-6">
@@ -175,7 +175,7 @@ dreamweaverphotography.bd@gmail.com</P>
 						<p class="wow fadeInUp" data-wow-delay="300ms">4 hrs Per Event</p>
 						<p class="wow fadeInUp" data-wow-delay="300ms">25000 BDT</p>
                			<a class="btn alime-btn btn-2 mt-30 wow fadeInUp" data-wow-delay="500ms" href="#">Booking Now!</a>  <a class="btn alime-btn btn-2 mt-30 wow fadeInUp" data-wow-delay="500ms" href="#">Add to Cart</a>
-             
+
                     </div>
                 </div>
                 <div class="col-12 col-lg-6">
@@ -193,44 +193,44 @@ dreamweaverphotography.bd@gmail.com</P>
             <!-- Single Instagram Item -->
             <div class="single-instagram-item">
                 <img src="../frontend/img/bg-img/v10.jpg" alt="">
-                <div class="instagram-hover-content text-center d-flex align-items-center justify-content-center">     
+                <div class="instagram-hover-content text-center d-flex align-items-center justify-content-center">
                 </div>
             </div>
             <!-- Single Instagram Item -->
             <div class="single-instagram-item">
                 <img src="../frontend/img/bg-img/v3.jpg" alt="">
-                <div class="instagram-hover-content text-center d-flex align-items-center justify-content-center">     
+                <div class="instagram-hover-content text-center d-flex align-items-center justify-content-center">
                 </div>
             </div>
             <!-- Single Instagram Item -->
             <div class="single-instagram-item">
                 <img src="../frontend/img/bg-img/v5.jpg" alt="">
-                <div class="instagram-hover-content text-center d-flex align-items-center justify-content-center">     
+                <div class="instagram-hover-content text-center d-flex align-items-center justify-content-center">
                 </div>
             </div>
 			<!-- Single Instagram Item -->
             <div class="single-instagram-item">
                 <img src="../frontend/img/bg-img/v8.jpg" alt="">
-                <div class="instagram-hover-content text-center d-flex align-items-center justify-content-center">     
+                <div class="instagram-hover-content text-center d-flex align-items-center justify-content-center">
                 </div>
             </div>
 			<!-- Single Instagram Item -->
             <div class="single-instagram-item">
                 <img src="../frontend/img/bg-img/v7.jpg" alt="">
-                <div class="instagram-hover-content text-center d-flex align-items-center justify-content-center">     
+                <div class="instagram-hover-content text-center d-flex align-items-center justify-content-center">
                 </div>
             </div>
-			
+
 			<!-- Single Instagram Item -->
             <div class="single-instagram-item">
                 <img src="../frontend/img/bg-img/v28.jpg" alt="">
-                <div class="instagram-hover-content text-center d-flex align-items-center justify-content-center">     
+                <div class="instagram-hover-content text-center d-flex align-items-center justify-content-center">
                 </div>
-            </div>	
+            </div>
         </div>
     </div>
-    
-   
+
+
         <!-- Instagram Feed Area -->
             <!-- Follow Area End -->
 
@@ -245,7 +245,7 @@ dreamweaverphotography.bd@gmail.com</P>
                             <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->Thanks for visting! </p>
                         </div>
                         <!-- Footer Logo -->
-                   
+
                     </div>
                 </div>
             </div>

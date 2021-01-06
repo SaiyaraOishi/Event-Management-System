@@ -30,7 +30,7 @@
                         <!-- Close -->
                         <button type="button" class="btn close-btn" data-dismiss="modal"><i class="ti-close"></i></button>
                         <!-- Form -->
-                        <form action="index.html" method="post">
+                        <form action="../frontend/index" method="post">
                             <input type="search" name="top-search-bar" class="form-control" placeholder="Search and hit enter...">
                             <button type="submit">Search</button>
                         </form>
@@ -50,7 +50,7 @@
                     <nav class="classy-navbar justify-content-between" id="alimeNav">
 
                         <!-- Logo -->
-                        <a class="nav-brand" href="./index.html"><img src="" alt=""></a>
+                        <a class="nav-brand" href="../frontend/index"><img src="" alt=""></a>
 
                         <!-- Navbar Toggler -->
                         <div class="classy-navbar-toggler">
@@ -66,21 +66,21 @@
                             <!-- Nav Start -->
                             <div class="classynav">
                                 <ul id="nav">
-                                    <li><a href="./index.html">Home</a></li>
+                                    <li><a href="../frontend/index">Home</a></li>
                                     <li><a href="#">Pages</a>
                                         <ul class="dropdown">
-                                            <li><a href="./venue.html">- Venue</a></li>
-                                            <li><a href="./caterer.html">- Caterer</a></li>
-                                            <li><a href="./photographer.html">- Photographer</a></li> 
-                                            <li><a href="./beautician.html">- Beautician</a></li>
-                                            <li><a href="./decorator.html">- Decorator</a></li>
-											<li><a href="./card_print.html">- Card Printer</a></li>
+                                            <li><a href="../frontend/venue">- Venue</a></li>
+                                            <li><a href="../frontend/caterer">- Caterer</a></li>
+                                            <li><a href="../frontend/photographer">- Photographer</a></li>
+                                            <li><a href="../frontend/beautician">- Beautician</a></li>
+                                            <li><a href="../frontend/decorator">- Decorator</a></li>
+											<li><a href="../frontend/card_print">- Card Printer</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="./about.html">About</a></li>
-                                    <li><a href="./gallery.html">Gallery</a></li>
-									<li class="active"><a href="./cart.html">Your Cart</a></li>
-                                    <li><a href="./contact.html">Contact</a></li>
+                                    <li><a href="../frontend/about">About</a></li>
+                                    <li><a href="../frontend/gallery">Gallery</a></li>
+									<li class="active"><a href="../frontend/cart">Your Cart</a></li>
+                                    <li><a href="../frontend/contact">Contact</a></li>
                                 </ul>
 
                                 <!-- Search Icon -->
@@ -104,7 +104,7 @@
                         <h2 class="page-title">Your Cart</h2>
                         <nav aria-label="breadcrumb">
                             <ol class="breadcrumb justify-content-center">
-                                <li class="breadcrumb-item"><a href="index.html"><i class="icon_house_alt"></i> Home</a></li>
+                                <li class="breadcrumb-item"><a href="../frontend/index"><i class="icon_house_alt"></i> Home</a></li>
                                 <li class="breadcrumb-item active" aria-current="page">Your Cart</li>
                             </ol>
                         </nav>
@@ -124,9 +124,9 @@
                         <h3 class="wow fadeInUp" data-wow-delay="100ms"> Raowa Club</h3>
                         <div class="line wow fadeInUp" data-wow-delay="200ms"></div>
                         <p class="wow fadeInUp" data-wow-delay="300ms">The Armed Forces Officers, during their services, remain bound together by ties of common ideas, identical hopes and aspirations.</p>
-                        
-						<a class="btn alime-btn btn-2 mt-30 wow fadeInUp" data-wow-delay="500ms" href="#">Contact Us</a> 
-             
+
+						<a class="btn alime-btn btn-2 mt-30 wow fadeInUp" data-wow-delay="500ms" href="#">Contact Us</a>
+
                     </div>
                 </div>
                 <div class="col-12 col-lg-6">
@@ -135,16 +135,16 @@
                     </div>
                 </div>
             </div>
-			
+
 			<div class="row align-items-center">
                 <div class="col-12 col-lg-6">
                     <div class="about-us-content mb-80">
                         <h3 class="wow fadeInUp" data-wow-delay="100ms"> Zaffran </h3>
                         <div class="line wow fadeInUp" data-wow-delay="200ms"></div>
                         <p class="wow fadeInUp" data-wow-delay="300ms">Make your food menus spicy with a touch of zafran. Best foods for your food table.</p>
-                        
-                        <a class="btn alime-btn btn-2 mt-30 wow fadeInUp" data-wow-delay="500ms" href="#">Contact Us</a> 
-             
+
+                        <a class="btn alime-btn btn-2 mt-30 wow fadeInUp" data-wow-delay="500ms" href="#">Contact Us</a>
+
                     </div>
                 </div>
                 <div class="col-12 col-lg-6">
@@ -153,16 +153,16 @@
                     </div>
                 </div>
             </div>
-			
+
             <div class="row align-items-center">
                 <div class="col-12 col-lg-6">
                     <div class="about-us-content mb-80">
                         <h3 class="wow fadeInUp" data-wow-delay="100ms"> Elegant Makeover</h3>
                         <div class="line wow fadeInUp" data-wow-delay="200ms"></div>
                         <p class="wow fadeInUp" data-wow-delay="300ms">Elegant Makeover & Fashion is a place for international hair makeover service and high branded makeup. We ensure the best quality for our clients. Our motive is client satisfaction. We take very limited clients so you must have appointment before coming.</p>
-                        
-                        <a class="btn alime-btn btn-2 mt-30 wow fadeInUp" data-wow-delay="500ms" href="#">Contact Us</a> 
-             
+
+                        <a class="btn alime-btn btn-2 mt-30 wow fadeInUp" data-wow-delay="500ms" href="#">Contact Us</a>
+
                     </div>
                 </div>
                 <div class="col-12 col-lg-6">
@@ -171,16 +171,16 @@
                     </div>
                 </div>
             </div>
-		
+
 			<div class="row align-items-center">
                 <div class="col-12 col-lg-6">
                     <div class="about-us-content mb-80">
                         <h3 class="wow fadeInUp" data-wow-delay="100ms"> Wedding Edge</h3>
                         <div class="line wow fadeInUp" data-wow-delay="200ms"></div>
                         <p class="wow fadeInUp" data-wow-delay="300ms">We value your special day and know how much precious it is for you. The gala day of one’s life passes so quickly that when you look back, you will find a blur memory of that. Specially without the memories captured by the cameras it would all seem just like a scattered oblivion. So, to make the very special day ever memorable for you and to let you have reminiscence Dream Weaver is always at your service! Celebrate those moments again and again with your near and dear ones.</p>
-                        
-                        <a class="btn alime-btn btn-2 mt-30 wow fadeInUp" data-wow-delay="500ms" href="#">Contact Us</a> 
-             
+
+                        <a class="btn alime-btn btn-2 mt-30 wow fadeInUp" data-wow-delay="500ms" href="#">Contact Us</a>
+
                     </div>
                 </div>
                 <div class="col-12 col-lg-6">
@@ -198,44 +198,44 @@
             <!-- Single Instagram Item -->
             <div class="single-instagram-item">
                 <img src="../frontend/img/bg-img/v10.jpg" alt="">
-                <div class="instagram-hover-content text-center d-flex align-items-center justify-content-center">     
+                <div class="instagram-hover-content text-center d-flex align-items-center justify-content-center">
                 </div>
             </div>
             <!-- Single Instagram Item -->
             <div class="single-instagram-item">
                 <img src="../frontend/img/bg-img/v3.jpg" alt="">
-                <div class="instagram-hover-content text-center d-flex align-items-center justify-content-center">     
+                <div class="instagram-hover-content text-center d-flex align-items-center justify-content-center">
                 </div>
             </div>
             <!-- Single Instagram Item -->
             <div class="single-instagram-item">
                 <img src="../frontend/img/bg-img/v5.jpg" alt="">
-                <div class="instagram-hover-content text-center d-flex align-items-center justify-content-center">     
+                <div class="instagram-hover-content text-center d-flex align-items-center justify-content-center">
                 </div>
             </div>
 			<!-- Single Instagram Item -->
             <div class="single-instagram-item">
                 <img src="../frontend/img/bg-img/v8.jpg" alt="">
-                <div class="instagram-hover-content text-center d-flex align-items-center justify-content-center">     
+                <div class="instagram-hover-content text-center d-flex align-items-center justify-content-center">
                 </div>
             </div>
 			<!-- Single Instagram Item -->
             <div class="single-instagram-item">
                 <img src="../frontend/img/bg-img/v7.jpg" alt="">
-                <div class="instagram-hover-content text-center d-flex align-items-center justify-content-center">     
+                <div class="instagram-hover-content text-center d-flex align-items-center justify-content-center">
                 </div>
             </div>
-			
+
 			<!-- Single Instagram Item -->
             <div class="single-instagram-item">
                 <img src="../frontend/img/bg-img/v28.jpg" alt="">
-                <div class="instagram-hover-content text-center d-flex align-items-center justify-content-center">     
+                <div class="instagram-hover-content text-center d-flex align-items-center justify-content-center">
                 </div>
-            </div>	
+            </div>
         </div>
     </div>
-    
-   
+
+
         <!-- Instagram Feed Area -->
             <!-- Follow Area End -->
 
@@ -250,7 +250,7 @@
                             <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->Thanks for visting! </p>
                         </div>
                         <!-- Footer Logo -->
-                   
+
                     </div>
                 </div>
             </div>

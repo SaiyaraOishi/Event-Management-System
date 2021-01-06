@@ -35,10 +35,13 @@ Route::get('/register', function () {
     return view('auth/register');
 })->name('register');
 Route::get('/index', function () {
-    return view('index');
+    return view('/layouts/index');
 });
 Route::get('/about', function () {
     return view('/layouts/about');
+});
+Route::get('/contact', function () {
+    return view('/layouts/contact');
 });
 Route::get('/gallery', function () {
     return view('/layouts/gallery');

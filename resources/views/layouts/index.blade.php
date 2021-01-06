@@ -74,7 +74,7 @@
                             <div class="classynav">
                                 <ul id="nav">
 
-                                    <li class="active"><a href="./index">Home</a></li>
+                                    <li class="active"><a href="../frontend/index">Home</a></li>
                                     <li><a href="#">Pages</a>
                                         <ul class="dropdown">
 
@@ -134,7 +134,7 @@
             </div>
 
             <!-- Single Slide -->
-            <div class="single-welcome-slide bg-img bg-overlay" style="background-image: url(../frontend/img/bg-img/">
+            <div class="single-welcome-slide bg-img bg-overlay" style="background-image: url(../frontend/img/bg-img/ss.jpg">
                 <div class="container h-100">
                     <div class="row h-100 align-items-center">
                         <!-- Welcome Text -->

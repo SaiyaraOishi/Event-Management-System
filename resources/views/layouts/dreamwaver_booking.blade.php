@@ -24,8 +24,8 @@
     <meta property="og:title" content="Page 2">
     <meta property="og:type" content="website">
     <meta name="theme-color" content="#478ac9">
-    <link rel="canonical" href="index.html">
-    <meta property="og:url" content="index.html">
+    <link rel="canonical" href="index">
+    <meta property="og:url" content="index">
 </head>
 <body class="u-body u-overlap u-overlap-transparent"><header class="u-align-left u-clearfix u-header u-header" id="sec-72b5"><div class="u-clearfix u-sheet u-sheet-1"></div></header>
 <section class="u-align-center u-clearfix u-image u-section-1" id="sec-79f8">
