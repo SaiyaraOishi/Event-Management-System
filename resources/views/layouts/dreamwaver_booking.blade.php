@@ -6,7 +6,7 @@
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="page_type" content="np-template-header-footer-from-plugin">
-    <title>Page 2</title>
+    <title>Booking Form</title>
     <link rel="stylesheet" href="./css/dreamwaver_booking1.css" media="screen">
     <link rel="stylesheet" href="./css/dreamwaver_booking.css" media="screen">
 
