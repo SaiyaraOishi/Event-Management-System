@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\serviceproviderregister;
 
 class serviceproviderlogin extends Controller
 {
@@ -19,13 +20,13 @@ class serviceproviderlogin extends Controller
 //   function index(Request $request)
 //   {
 //       return "raisa";
-        $email = ServiceproviderregisterController::where('spemail','=',$request->email)->first();
+        $email = serviceproviderregister::where('email','=',$request->spemail)->first();
         if($email)
         {
             if($request->sppassword == $email->password)
                 return "success";
             else
-                return "invalide password";
+                return "invalid password";
 
         }
         else

@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\OrderBookingController;
 use App\Http\Controllers\ServiceproviderregisterController;
 use App\Http\Controllers\serviceproviderlogin;
+use App\Http\Controllers\DreamwaverBookingController;
 
 /*
 |--------------------------------------------------------------------------
@@ -78,5 +79,5 @@ Route::get('/serviceproviderlogin', function () {
 });
 
 Route::post('spregister',[ServiceproviderregisterController::class,'index'])->name('ServiceproviderregisterController.spregister');
-Route::post('splogin',[serviceproviderlogin::class,'index'])->name('Serviceproviderlogin.splogin');
-//Route::post('splogin',[serviceproviderlogin::class,'validate'])->name('Serviceproviderlogin.splogin');
+Route::post('splogin',[serviceproviderlogin::class,'index'])->name('serviceproviderlogin.splogin');
+Route::post('dreamwaver_booking',[DreamwaverBookingController::class,'index'])->name('DreamwaverBookingController.dreamwaver_booking');
