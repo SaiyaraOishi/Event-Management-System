@@ -21,6 +21,7 @@ class DreamwaverBookingController extends Controller
         $order->phone = $request->phone;
         $order->date = $request->date;
         $order->time = $request->time;
+        $order->service_type = $request->service_type;
         $query=$order->save();
         if($query){
             return "Order Confirmed!!!";

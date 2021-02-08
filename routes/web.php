@@ -74,6 +74,9 @@ Route::get('/form', function () {
 Route::get('/dreamwaver_booking', function () {
     return view('/layouts/dreamwaver_booking');
 });
+
+Route::get('approve-order/{order_id}', [serviceproviderlogin::class, 'approveOrder'])->name('approve.order');
+
 Route::post('book',[OrderBookingController::class,'index'])->name('OrderBookingController.book');
 Route::get('/serviceproviderRegister', function () {
     return view('/layouts/serviceproviderRegister');

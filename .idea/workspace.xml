@@ -1,26 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c674b53b-6d1b-49a7-af28-74683b70dd0c" name="Default Changelist" comment="dreamwaver orderbooking complete.">
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/serviceProviderDashboard.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_1_3_2021_10_43_PM_[Default_Changelist]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_1_3_2021_10_43_PM__Default_Changelist_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_1_3_2021_10_58_PM_[Default_Changelist]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_1_3_2021_10_58_PM__Default_Changelist_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_1_5_2021_4_30_PM_[Default_Changelist]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_1_5_2021_4_30_PM__Default_Changelist_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_3_2021_10_08_PM__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_3_2021_10_08_PM__Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_3_2021_10_15_PM__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_3_2021_10_15_PM__Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_3_2021_10_39_PM_[Default_Changelist]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_3_2021_10_39_PM__Default_Changelist_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_5_2021_2_43_PM__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_5_2021_2_43_PM__Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_5_2021_8_54_PM__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_5_2021_8_54_PM__Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_6_2021_8_49_PM__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_6_2021_8_49_PM__Default_Changelist_.xml" afterDir="false" />
+    <list default="true" id="c674b53b-6d1b-49a7-af28-74683b70dd0c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/DreamwaverBookingController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/DreamwaverBookingController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/serviceproviderlogin.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/serviceproviderlogin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/dreamwaver_booking.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/dreamwaver_booking1.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/dreamwaver_booking.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/dreamwaver_booking.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/serviceProviderDashboard.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/serviceProviderDashboard.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -254,7 +240,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609948851892</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Service Provider Dashboard">
+      <created>1612795660028</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1612795660028</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -283,7 +276,8 @@
     <MESSAGE value="serviceprovider registration successful" />
     <MESSAGE value="serviceprovider login not successful" />
     <MESSAGE value="dreamwaver orderbooking complete." />
-    <option name="LAST_COMMIT_MESSAGE" value="dreamwaver orderbooking complete." />
+    <MESSAGE value="Service Provider Dashboard" />
+    <option name="LAST_COMMIT_MESSAGE" value="Service Provider Dashboard" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

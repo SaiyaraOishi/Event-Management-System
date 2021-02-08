@@ -46,27 +46,26 @@
         <th scope="col">Phone Number</th>
         <th scope="col">Date</th>
         <th scope="col">Time</th>
+        <th scope="col">Service Type</th>
         <th scope="col">Created</th>
         <th scope="col">Updated</th>
         <th scope="col">Action</th>
         </thead>
         <tbody>
-        @foreach($allOrders as $order)
+        @foreach($orders as $order)
             <tr>
 
                 <td scope="row">{{$order['id']}}</td>
                 <td scope="row">{{$order['name']}}</td>
                 <td scope="row">{{$order['email']}}</td>
                 <td scope="row">{{$order['phone']}}</td>
-                <td scope="row">
-                    <a href="" class="btn btn-info">VIEW</a>
-                </td>
                 <td scope="row">{{$order['date']}}</td>
                 <td scope="row">{{$order['time']}}</td>
+                <td scope="row">{{$order['service_type']}}</td>
                 <td scope="row">{{$order['created_at']}}</td>
                 <td scope="row">{{$order['updated_at']}}</td>
                 <td scope="row">
-                    <a href="" class="btn btn-primary">APPROVE</a>
+                    <a href="{{ route('approve.order',  $order['id']) }}" class="btn btn-primary">APPROVE</a>
                     <a href="" class="btn btn-danger">REJECT</a>
                 </td>
             </tr>
