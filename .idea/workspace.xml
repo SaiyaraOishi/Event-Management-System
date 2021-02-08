@@ -1,20 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="66d2a5c3-8a89-4bb4-a65e-199ce9ace2a2" name="Default Changelist" comment="Booking created" />
+    <list default="true" id="c674b53b-6d1b-49a7-af28-74683b70dd0c" name="Default Changelist" comment="html gone and route fixed,page moves good">
+      <change beforePath="$PROJECT_DIR$/.idea/Event Management System.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Event Management System.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_1_3_2021_10_43_PM_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_1_3_2021_10_43_PM__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_1_3_2021_10_58_PM_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_1_3_2021_10_58_PM__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_1_5_2021_4_30_PM_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_1_5_2021_4_30_PM__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_3_2021_10_08_PM_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_3_2021_10_08_PM__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_3_2021_10_15_PM_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_3_2021_10_15_PM__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_3_2021_10_39_PM_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_3_2021_10_39_PM__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_5_2021_2_43_PM_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_5_2021_2_43_PM__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_5_2021_8_54_PM_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_5_2021_8_54_PM__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_6_2021_8_49_PM_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_6_2021_8_49_PM__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/dreamwaver_booking.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/dreamwaver_booking.blade.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" doNotAsk="true">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="composer.json" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Anika-Tahsin" />
+        <entry key="$PROJECT_DIR$" value="Saiyara-Oishi" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -128,7 +158,8 @@
       <path value="$PROJECT_DIR$/vendor/psr/container" />
     </include_path>
   </component>
-  <component name="ProjectId" id="1meky3Zew6G3jJOz3PnCJUDvjYK" />
+  <component name="ProjectId" id="1m6efPPGi4B7fDUP7AQvvTgewNt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -139,39 +170,109 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner scope="XML" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="66d2a5c3-8a89-4bb4-a65e-199ce9ace2a2" name="Default Changelist" comment="" />
-      <created>1609861698890</created>
+      <changelist id="c674b53b-6d1b-49a7-af28-74683b70dd0c" name="Default Changelist" comment="" />
+      <created>1608818575251</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1609861698890</updated>
-      <workItem from="1609861704029" duration="1358000" />
-      <workItem from="1609869730062" duration="1495000" />
-      <workItem from="1609930868701" duration="7587000" />
-      <workItem from="1612113606817" duration="427000" />
-      <workItem from="1612434096873" duration="18000" />
-      <workItem from="1612791086076" duration="7326000" />
-      <workItem from="1612808566304" duration="147000" />
+      <updated>1608818575251</updated>
+      <workItem from="1608818581091" duration="311000" />
+      <workItem from="1608818903610" duration="223000" />
+      <workItem from="1608819231091" duration="170000" />
+      <workItem from="1608920468687" duration="12617000" />
+      <workItem from="1609251439187" duration="1293000" />
+      <workItem from="1609342821441" duration="2393000" />
+      <workItem from="1609509796617" duration="2198000" />
+      <workItem from="1609588305983" duration="212000" />
+      <workItem from="1609685593288" duration="4482000" />
+      <workItem from="1609765762159" duration="1260000" />
+      <workItem from="1609841685833" duration="7906000" />
+      <workItem from="1609939138697" duration="9774000" />
+      <workItem from="1612120977755" duration="1640000" />
+      <workItem from="1612122891895" duration="599000" />
+      <workItem from="1612124761147" duration="1795000" />
+      <workItem from="1612126632937" duration="1836000" />
+      <workItem from="1612129042150" duration="638000" />
+      <workItem from="1612244790967" duration="276000" />
+      <workItem from="1612330026091" duration="2366000" />
+      <workItem from="1612544608126" duration="651000" />
+      <workItem from="1612762204587" duration="4319000" />
     </task>
-    <task id="LOCAL-00001" summary="dream weaver booking page added">
-      <created>1609944355762</created>
+    <task id="LOCAL-00001" summary="Linking Up Pages">
+      <created>1608964807057</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1609944355762</updated>
+      <updated>1608964807057</updated>
     </task>
-    <task id="LOCAL-00002" summary="Booking form headline changed">
-      <created>1609944454669</created>
+    <task id="LOCAL-00002" summary="DB tables and controllers">
+      <created>1609588508968</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1609944454669</updated>
+      <updated>1609588508968</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="DB tables and controllers">
+      <created>1609690389780</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1609690389780</updated>
+    </task>
+    <task id="LOCAL-00004" summary="DB connection">
+      <created>1609845390033</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1609845390033</updated>
+    </task>
+    <task id="LOCAL-00005" summary="DB connection for orderbooking">
+      <created>1609867595653</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1609867595653</updated>
+    </task>
+    <task id="LOCAL-00006" summary="serviceprovider registration successful">
+      <created>1609871421636</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1609871421636</updated>
+    </task>
+    <task id="LOCAL-00007" summary="serviceprovider login not successful">
+      <created>1609880281788</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1609880281788</updated>
+    </task>
+    <task id="LOCAL-00008" summary="dreamwaver orderbooking complete.">
+      <created>1609948851892</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1609948851892</updated>
+    </task>
+    <task id="LOCAL-00009" summary="html gone and route fixed,page moves good">
+      <created>1609952201770</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1609952201770</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,8 +291,21 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="dream weaver booking page added" />
-    <MESSAGE value="Booking form headline changed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Booking form headline changed" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="Linking Up Pages" />
+    <MESSAGE value="DB tables and controllers" />
+    <MESSAGE value="DB connection" />
+    <MESSAGE value="DB connection for orderbooking" />
+    <MESSAGE value="serviceprovider registration successful" />
+    <MESSAGE value="serviceprovider login not successful" />
+    <MESSAGE value="dreamwaver orderbooking complete." />
+    <MESSAGE value="html gone and route fixed,page moves good" />
+    <option name="LAST_COMMIT_MESSAGE" value="html gone and route fixed,page moves good" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
