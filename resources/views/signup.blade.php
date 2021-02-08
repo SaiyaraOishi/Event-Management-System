@@ -111,7 +111,6 @@
                                 <a href="{{ route('register')}}" class="btn alime-btn mb-3 mb-sm-0 mr-4">Sign Up</a><a href="{{ route('login')}}" class="btn alime-btn mb-3 mb-sm-0 mr-4">Login</a>
                             </div>
 
-
                         </div>
                     </div>
                 </div>
