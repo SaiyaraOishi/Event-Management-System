@@ -5,6 +5,7 @@ use App\Http\Controllers\OrderBookingController;
 use App\Http\Controllers\ServiceproviderregisterController;
 use App\Http\Controllers\serviceproviderlogin;
 use App\Http\Controllers\DreamwaverBookingController;
+use App\Http\Controllers\ServiceProviderDashboard;
 
 /*
 |--------------------------------------------------------------------------
@@ -84,3 +85,13 @@ Route::get('/serviceproviderlogin', function () {
 Route::post('spregister',[ServiceproviderregisterController::class,'index'])->name('ServiceproviderregisterController.spregister');
 Route::post('splogin',[serviceproviderlogin::class,'index'])->name('serviceproviderlogin.splogin');
 Route::post('dreamwaver_booking',[DreamwaverBookingController::class,'index'])->name('DreamwaverBookingController.dreamwaver_booking');
+
+Route::get('/serviceProviderDashboard', function () {
+    return view('/layouts/serviceProviderDashboard');
+})->name("serviceProviderDashboard");
+
+//Route::post('serviceProviderDashboard',[ServiceProviderDashboard::class,'view'])->name('ServiceProviderDashboard.serviceProviderDashboard');
+
+
+
+

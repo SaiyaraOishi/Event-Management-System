@@ -7,8 +7,8 @@
     <meta name="description" content="">
     <meta name="page_type" content="np-template-header-footer-from-plugin">
     <title>Booking Form</title>
-    <link rel="stylesheet" href="./css/dreamwaver_booking1.css" media="screen">
-    <link rel="stylesheet" href="./css/dreamwaver_booking.css" media="screen">
+    <link rel="stylesheet" href="dreamwaver_booking1.css" media="screen">
+    <link rel="stylesheet" href="dreamwaver_booking.css" media="screen">
 
     <script class="u-script" type="text/javascript" src="dreamwaver_booking.js" defer=""></script>
     <meta name="generator" content="Nicepage 3.1.3, nicepage.com">
