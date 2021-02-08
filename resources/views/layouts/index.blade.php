@@ -84,8 +84,6 @@
                                             <li><a href="../frontend/decorator"> Decorator</a></li>
 											<li><a href="../frontend/card_print"> Card Printer</a></li>
 
-
-
                                         </ul>
                                     </li>
                                     <li><a href="../frontend/about">About</a></li>
