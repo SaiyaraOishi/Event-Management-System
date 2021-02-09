@@ -1,3 +1,4 @@
+{{--@extends('layouts.app')--}}
 <!DOCTYPE html>
 <html lang="en">
 
@@ -34,7 +35,7 @@
                         <!-- Close -->
                         <button type="button" class="btn close-btn" data-dismiss="modal"><i class="ti-close"></i></button>
                         <!-- Form -->
-                        <form action="../frontend/index.html" method="post">
+                        <form action="../frontend/index" method="post">
                             <input type="search" name="top-search-bar" class="form-control" placeholder="Search and hit enter...">
                             <button type="submit">Search</button>
                         </form>
@@ -54,12 +55,13 @@
                     <nav class="classy-navbar justify-content-between" id="alimeNav">
 
                         <!-- Logo -->
-                        <a class="nav-brand" href="../frontend/index.html"><img src="" alt=""></a>
+                        <a class="nav-brand" href="../frontend/index"><img src="" alt=""></a>
 
                         <!-- Navbar Toggler -->
                         <div class="classy-navbar-toggler">
                             <span class="navbarToggler"><span></span><span></span><span></span></span>
                         </div>
+
 
                         <!-- Menu -->
                         <div class="classy-menu">
@@ -67,29 +69,38 @@
                             <div class="classycloseIcon">
                                 <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
                             </div>
+
                             <!-- Nav Start -->
                             <div class="classynav">
                                 <ul id="nav">
-                                    <li class="active"><a href="./index.html">Home</a></li>
+
+                                    <li class="active"><a href="../frontend/index">Home</a></li>
                                     <li><a href="#">Pages</a>
                                         <ul class="dropdown">
-                                            <li><a href="./venue.html">- Venue</a></li>
-                                            <li><a href="./caterer.html">- Caterer</a></li>
-                                            <li><a href="./photographer.html">- Photographer</a></li>
-                                            <li><a href="./beautician.html">- Beautician</a></li>
-                                            <li><a href="./decorator.html">- Decorator</a></li>
-											<li><a href="./card_print.html">- Card Printer</a></li>
+
+                                            <li><a href="../frontend/venue"> Venue</a></li>
+                                            <li><a href="../frontend/venue"> Venue</a></li>
+                                            <li><a href="../frontend/caterer"> Caterer</a></li>
+                                            <li><a href="../frontend/photographer"> Photographer</a></li>
+                                            <li><a href="../frontend/beautician"> Beautician</a></li>
+                                            <li><a href="../frontend/decorator"> Decorator</a></li>
+											<li><a href="../frontend/card_print"> Card Printer</a></li>
+
+
+
                                         </ul>
                                     </li>
-                                    <li><a href="./about.html">About</a></li>
-                                    <li><a href="/gallery.html">Gallery</a></li>
-									<li><a href="./cart.html">Your Cart</a></li>
-                                    <li><a href="./contact.html">Contact</a></li>
+                                    <li><a href="../frontend/about">About</a></li>
+                                    <li><a href="../frontend/gallery">Gallery</a></li>
+									<li><a href="../frontend/cart">Your Cart</a></li>
+                                    <li><a href="../frontend/contact">Contact</a></li>
+
                                 </ul>
 
                                 <!-- Search Icon -->
                                 <div class="search-icon" data-toggle="modal" data-target="#searchModal"><i class="ti-search"></i></div>
                             </div>
+
                             <!-- Nav End -->
                         </div>
                     </nav>
@@ -123,7 +134,7 @@
             </div>
 
             <!-- Single Slide -->
-            <div class="single-welcome-slide bg-img bg-overlay" style="background-image: url(../frontend/img/bg-img/ss.jpg);">
+            <div class="single-welcome-slide bg-img bg-overlay" style="background-image: url(../frontend/img/bg-img/ss.jpg">
                 <div class="container h-100">
                     <div class="row h-100 align-items-center">
                         <!-- Welcome Text -->

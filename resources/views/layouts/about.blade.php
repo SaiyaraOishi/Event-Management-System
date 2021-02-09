@@ -30,7 +30,7 @@
                         <!-- Close -->
                         <button type="button" class="btn close-btn" data-dismiss="modal"><i class="ti-close"></i></button>
                         <!-- Form -->
-                        <form action="../frontend/index.html" method="post">
+                        <form action="../frontend/index" method="post">
                             <input type="search" name="top-search-bar" class="form-control" placeholder="Search and hit enter...">
                             <button type="submit">Search</button>
                         </form>
@@ -50,7 +50,7 @@
                     <nav class="classy-navbar justify-content-between" id="alimeNav">
 
                         <!-- Logo -->
-                        <a class="nav-brand" href="../frontend/index.html"><img src="" alt=""></a>
+                        <a class="nav-brand" href="../frontend/index"><img src="" alt=""></a>
 
                         <!-- Navbar Toggler -->
                         <div class="classy-navbar-toggler">
@@ -66,21 +66,21 @@
                             <!-- Nav Start -->
                             <div class="classynav">
                                 <ul id="nav">
-                                    <li><a href="./index.html">Home</a></li>
+                                    <li><a href="../frontend/index">Home</a></li>
                                     <li><a href="#">Pages</a>
                                         <ul class="dropdown">
-                                            <li><a href="./venue.html">- Venue</a></li>
-                                            <li><a href="./caterer.html">- Caterer</a></li>
-                                            <li><a href="./photographer.html">- Photographer</a></li> 
-                                            <li><a href="./beautician.html">- Beautician</a></li>
-                                            <li><a href="./decorator.html">- Decorator</a></li>
-											<li><a href="./card_print.html">- Card Printer</a></li>
+                                            <li><a href="../frontend/venue">- Venue</a></li>
+                                            <li><a href="../frontend/caterer">- Caterer</a></li>
+                                            <li><a href="../frontend/photographer">- Photographer</a></li>
+                                            <li><a href="../frontend/beautician">- Beautician</a></li>
+                                            <li><a href="../frontend/decorator">- Decorator</a></li>
+											<li><a href="../frontend/card_print">- Card Printer</a></li>
                                         </ul>
                                     </li>
-                                    <li class="active"><a href="./about.html">About</a></li>
-                                    <li><a href="./gallery.html">Gallery</a></li>
-									<li><a href="./cart.html">Cart</a></li>
-                                    <li><a href="./contact.html">Contact</a></li>
+                                    <li class="active"><a href="../frontend/about">About</a></li>
+                                    <li><a href="../frontend/gallery">Gallery</a></li>
+									<li><a href="../frontend/cart">Cart</a></li>
+                                    <li><a href="../frontend/contact">Contact</a></li>
                                 </ul>
 
                                 <!-- Search Icon -->
@@ -104,7 +104,7 @@
                         <h2 class="page-title">About Us</h2>
                         <nav aria-label="breadcrumb">
                             <ol class="breadcrumb justify-content-center">
-                                <li class="breadcrumb-item"><a href="../frontend/index.html"><i class="icon_house_alt"></i> Home</a></li>
+                                <li class="breadcrumb-item"><a href="../frontend/index"><i class="icon_house_alt"></i> Home</a></li>
                                 <li class="breadcrumb-item active" aria-current="page">About</li>
                             </ol>
                         </nav>
@@ -124,7 +124,7 @@
                         <h3 class="wow fadeInUp" data-wow-delay="100ms"> Make your dreams come true </h3>
                         <div class="line wow fadeInUp" data-wow-delay="200ms"></div>
                         <p class="wow fadeInUp" data-wow-delay="300ms">We here at Evager.com will help you find all your party planner services in one place. Select your budget and choose your service providers according to their offered packages. Worried about Catering, venue selection, decorating, sending invitations to your guests and managing the best photographers in town? We have got you covered. Our website contains a wide range of service providers. View their profiles to select your deals now!</p>
-                        
+
                         <a class="btn alime-btn btn-2 mt-30 wow fadeInUp" data-wow-delay="500ms" href="#">Contact Us</a>
                     </div>
                 </div>
@@ -160,7 +160,7 @@
                         <p>Getting tired of planning your events? Is finding a good party planner becoming tough for you? Don't worry Evager has got you covered. Select from our wide variety of party planning service providers and confirm your deals with just one click!
 </p>
                 </div>
-      
+
             </div>
         </div>
     </section>
@@ -171,7 +171,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                   
+
                 </div>
             </div>
 
@@ -180,44 +180,44 @@
             <!-- Single Instagram Item -->
             <div class="single-instagram-item">
                 <img src="../frontend/img/bg-img/v10.jpg" alt="">
-                <div class="instagram-hover-content text-center d-flex align-items-center justify-content-center">     
+                <div class="instagram-hover-content text-center d-flex align-items-center justify-content-center">
                 </div>
             </div>
             <!-- Single Instagram Item -->
             <div class="single-instagram-item">
                 <img src="../frontend/img/bg-img/v3.jpg" alt="">
-                <div class="instagram-hover-content text-center d-flex align-items-center justify-content-center">     
+                <div class="instagram-hover-content text-center d-flex align-items-center justify-content-center">
                 </div>
             </div>
             <!-- Single Instagram Item -->
             <div class="single-instagram-item">
                 <img src="../frontend/img/bg-img/v5.jpg" alt="">
-                <div class="instagram-hover-content text-center d-flex align-items-center justify-content-center">     
+                <div class="instagram-hover-content text-center d-flex align-items-center justify-content-center">
                 </div>
             </div>
 			<!-- Single Instagram Item -->
             <div class="single-instagram-item">
                 <img src="../frontend/img/bg-img/v8.jpg" alt="">
-                <div class="instagram-hover-content text-center d-flex align-items-center justify-content-center">     
+                <div class="instagram-hover-content text-center d-flex align-items-center justify-content-center">
                 </div>
             </div>
 			<!-- Single Instagram Item -->
             <div class="single-instagram-item">
                 <img src="../frontend/img/bg-img/v7.jpg" alt="">
-                <div class="instagram-hover-content text-center d-flex align-items-center justify-content-center">     
+                <div class="instagram-hover-content text-center d-flex align-items-center justify-content-center">
                 </div>
             </div>
-			
+
 			<!-- Single Instagram Item -->
             <div class="single-instagram-item">
                 <img src="../frontend/img/bg-img/v28.jpg" alt="">
-                <div class="instagram-hover-content text-center d-flex align-items-center justify-content-center">     
+                <div class="instagram-hover-content text-center d-flex align-items-center justify-content-center">
                 </div>
-            </div>	
+            </div>
         </div>
     </div>
-    
-   
+
+
         <!-- Instagram Feed Area -->
             <!-- Follow Area End -->
 
@@ -232,7 +232,7 @@
                             <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->Thanks for visting! </p>
                         </div>
                         <!-- Footer Logo -->
-                   
+
                     </div>
                 </div>
             </div>

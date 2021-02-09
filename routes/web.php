@@ -1,6 +1,11 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\OrderBookingController;
+use App\Http\Controllers\ServiceproviderregisterController;
+use App\Http\Controllers\serviceproviderlogin;
+use App\Http\Controllers\DreamwaverBookingController;
+use App\Http\Controllers\ServiceProviderDashboard;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,13 +21,13 @@ use Illuminate\Support\Facades\Route;
 // Route::get('/', function () {
 //     return view('welcome');
 // });
+
+Auth::routes();
 Route::get('/', function () {
     return view('signup');
 });
-
-Auth::routes();
-
 Route::get('/home', 'HomeController@index')->name('home');
+
 
 Route::get('/login', function () {
     return view('auth/login');
@@ -30,36 +35,66 @@ Route::get('/login', function () {
 Route::get('/register', function () {
     return view('auth/register');
 })->name('register');
-
-//Route::get('/register', 'App\Http\Controllers\Auth\RegisterController@create')->name('register');
-
 Route::get('/index', function () {
-    return view('index');
+    return view('/layouts/index');
 });
 Route::get('/about', function () {
-    return view('about');
+    return view('/layouts/about');
+});
+Route::get('/contact', function () {
+    return view('/layouts/contact');
 });
 Route::get('/gallery', function () {
-    return view('gallery');
+    return view('/layouts/gallery');
 });
 Route::get('/card_print', function () {
-    return view('card_print');
+    return view('/layouts/card_print');
 });
 Route::get('/beautician', function () {
-    return view('beautician');
+    return view('/layouts/beautician');
 });
-Route::get('/vanuer', function () {
-    return view('vanue');
+Route::get('/venue', function () {
+    return view('/layouts/venue');
 });
 Route::get('/photographer', function () {
-    return view('photographer');
+    return view('/layouts/photographer');
 });
 Route::get('/decorator', function () {
-    return view('decorator');
+    return view('/layouts/decorator');
 });
 Route::get('/caterer', function () {
-    return view('caterer');
+    return view('/layouts/caterer');
 });
 Route::get('/cart', function () {
-    return view('cart');
+    return view('/layouts/cart');
 });
+Route::get('/form', function () {
+    return view('/layouts/form');
+});
+Route::get('/dreamwaver_booking', function () {
+    return view('/layouts/dreamwaver_booking');
+});
+
+Route::get('approve-order/{order_id}', [serviceproviderlogin::class, 'approveOrder'])->name('approve.order');
+
+Route::post('book',[OrderBookingController::class,'index'])->name('OrderBookingController.book');
+Route::get('/serviceproviderRegister', function () {
+    return view('/layouts/serviceproviderRegister');
+});
+Route::get('/serviceproviderlogin', function () {
+    return view('/layouts/serviceproviderlogin');
+});
+
+Route::post('spregister',[ServiceproviderregisterController::class,'index'])->name('ServiceproviderregisterController.spregister');
+Route::post('splogin',[serviceproviderlogin::class,'index'])->name('serviceproviderlogin.splogin');
+Route::post('dreamwaver_booking',[DreamwaverBookingController::class,'index'])->name('DreamwaverBookingController.dreamwaver_booking');
+
+Route::get('/serviceProviderDashboard', function () {
+    return view('/layouts/serviceProviderDashboard');
+})->name("serviceProviderDashboard");
+
+//Route::post('serviceProviderDashboard',[ServiceProviderDashboard::class,'view'])->name('ServiceProviderDashboard.serviceProviderDashboard');
+
+
+
+
