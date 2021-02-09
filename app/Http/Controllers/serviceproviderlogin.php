@@ -12,28 +12,23 @@ class serviceproviderlogin extends Controller
 
     function index(Request $request)
     {
-        $email = $request->spemail;
-        $password = $request->sppassword;
-        $user = serviceproviderregister::where('email', $email)->where('password', $password)->first();
 
-
-        if($user)
+        $email = serviceproviderregister::where('email','=',$request->spemail)->first();
+        if($email)
         {
-            $orders=dreamwaver_booking::where('service_type',$user->serviceType)->get();
-//            return view('layouts/serviceProviderDashboard')->with(['order' => $orders]);
-            return view('layouts/serviceProviderDashboard', compact('user', 'orders'));
+            if($request->sppassword == $email->password) {
+                $allOrders = dreamwaver_booking::all();
+//                return redirect()->route('serviceProviderDashboard');
+                return view('layouts/serviceProviderDashboard')->with(['allOrders' => $allOrders]);
+            }
+
+            else
+                return "invalid password";
+
         }
         else
             return "no account";
    }
 
-    public function approveOrder($order_id)
-    {
-        $order = dreamwaver_booking::findOrFail($order_id);
-        $order->status = 'approved';
-        $order->save();
 
-
-    }
-//nothing
 }
