@@ -19,7 +19,7 @@ class serviceproviderlogin extends Controller
 
         if($user)
         {
-            $orders=dreamwaver_booking::where('service_type',$user->serviceType)->get();
+            $orders=dreamwaver_booking::where('service_provider_name',$user->name)->get();
 //            return view('layouts/serviceProviderDashboard')->with(['order' => $orders]);
             return view('layouts/serviceProviderDashboard', compact('user', 'orders'));
         }
