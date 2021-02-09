@@ -1,43 +1,7 @@
 <html>
 <body>
 
-{{--<div id="container">--}}
-{{--    <h3><font color="white">Total Orders Table</font></h3>--}}
-{{--    @if(count($errors)>0)--}}
 
-{{--        <div class="alert alert-danger">--}}
-{{--            <ul>--}}
-{{--                @foreach($errors->all() as $error)--}}
-{{--                    <li>{{$error}}</li>--}}
-{{--                @endforeach--}}
-{{--            </ul>--}}
-{{--        </div>--}}
-{{--    @endif--}}
-
-{{--    @if(\Session::has('success'))--}}
-{{--        <div class="alert alert-success">--}}
-{{--            <p>{{ \Session::get('success') }}</p>--}}
-{{--        </div>--}}
-{{--@endif--}}
-
-{{--<!-- Button trigger modal -->--}}
-{{--    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">--}}
-{{--        Add data with modal--}}
-{{--    </button>--}}
-{{--    <h2><font color="#d3d3d3"> Welcome {{$idSectionCourseTeacher}}</font></h2>--}}
-
-{{--    <br><br>--}}
-{{--    <nav class="navbar navbar-dark bg-dark">--}}
-{{--        <div class="container-fluid">--}}
-{{--            <a class="navbar-brand">Data Table</a>--}}
-{{--            <form action="" method="POST" class="d-flex">--}}
-{{--                @csrf--}}
-{{--                <input class="form-control me-2" type="search" name="search_data" placeholder="Search"--}}
-{{--                       aria-label="Search">--}}
-{{--                <button class="btn btn-outline-success" type="submit">Search</button>--}}
-{{--            </form>--}}
-{{--        </div>--}}
-{{--    </nav>--}}
     <table id="datatable" class="table table-dark table-striped">
         <thead>
         <th scope="col">Id</th>

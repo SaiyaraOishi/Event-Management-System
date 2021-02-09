@@ -65,9 +65,9 @@ Route::get('/decorator', function () {
 Route::get('/caterer', function () {
     return view('/layouts/caterer');
 });
-Route::get('/cart', function () {
-    return view('/layouts/cart');
-});
+//Route::get('/cart', function () {
+//    return view('/layouts/cart');
+//});
 Route::get('/form', function () {
     return view('/layouts/form');
 });
@@ -95,7 +95,7 @@ Route::get('/serviceProviderDashboard', function () {
 })->name("serviceProviderDashboard");
 
 //Route::post('serviceProviderDashboard',[ServiceProviderDashboard::class,'view'])->name('ServiceProviderDashboard.serviceProviderDashboard');
-
+Route::get('cart',"customerBookingDashboard@index")->name('customerBookingDashboard.cart');
 
 
 

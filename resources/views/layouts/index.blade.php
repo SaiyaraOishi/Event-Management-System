@@ -88,7 +88,7 @@
                                     </li>
                                     <li><a href="../frontend/about">About</a></li>
                                     <li><a href="../frontend/gallery">Gallery</a></li>
-									<li><a href="../frontend/cart">Your Cart</a></li>
+									<li><a href="../frontend/cart">Your Bookings</a></li>
                                     <li><a href="../frontend/contact">Contact</a></li>
 
                                 </ul>
