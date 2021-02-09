@@ -77,8 +77,6 @@
                                     <li class="active"><a href="../frontend/index">Home</a></li>
                                     <li><a href="#">Pages</a>
                                         <ul class="dropdown">
-
-                                            <li><a href="../frontend/venue"> Venue</a></li>
                                             <li><a href="../frontend/venue"> Venue</a></li>
                                             <li><a href="../frontend/caterer"> Caterer</a></li>
                                             <li><a href="../frontend/photographer"> Photographer</a></li>
