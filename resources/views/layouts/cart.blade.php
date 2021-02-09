@@ -4,7 +4,6 @@
 
 <table id="datatable" class="table table-dark table-striped">
     <thead>
-    <tr>
     <th scope="col">Id</th>
     <th scope="col">Name</th>
     <th scope="col">Email</th>
@@ -15,7 +14,6 @@
     <th scope="col">Status</th>
     <th scope="col">Created</th>
     <th scope="col">Updated</th>
-    </tr>
     </thead>
     <tbody>
     @foreach($orders as $order)
