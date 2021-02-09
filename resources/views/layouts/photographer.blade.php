@@ -79,7 +79,7 @@
                                     </li>
                                     <li><a href="../frontend/about">About</a></li>
                                     <li><a href="../frontend/gallery">Gallery</a></li>
-									<li><a href="../frontend/cart">Your Cart</a></li>
+									<li><a href="../frontend/cart">Your Bookings</a></li>
                                     <li><a href="../frontend/contact">Contact</a></li>
                                 </ul>
 
@@ -128,7 +128,7 @@
 						<p class="wow fadeInUp" data-wow-delay="300ms">1 Top Associate Photographer</p>
 						<p class="wow fadeInUp" data-wow-delay="300ms">4 hrs Per Event</p>
 						<p class="wow fadeInUp" data-wow-delay="300ms">15000 BDT</p>
-                        <a class="btn alime-btn btn-2 mt-30 wow fadeInUp" data-wow-delay="500ms" href="#">Booking Now!</a>  <a class="btn alime-btn btn-2 mt-30 wow fadeInUp" data-wow-delay="500ms" href="#">Add to Cart</a>
+                        <a class="btn alime-btn btn-2 mt-30 wow fadeInUp" data-wow-delay="500ms" href="../frontend/dreamwaver_booking">Booking Now!</a>
 
                     </div>
                 </div>
@@ -153,7 +153,7 @@ dreamweaverphotography.bd@gmail.com</P>
 						<p class="wow fadeInUp" data-wow-delay="300ms">4 hrs Per Event</p>
 						<p class="wow fadeInUp" data-wow-delay="300ms">32500 BDT</p>
 
-                        <a class="btn alime-btn btn-2 mt-30 wow fadeInUp" data-wow-delay="500ms" href="../frontend/dreamwaver_booking">Booking Now!</a>  <a class="btn alime-btn btn-2 mt-30 wow fadeInUp" data-wow-delay="500ms" href="#">Add to Cart</a>
+                        <a class="btn alime-btn btn-2 mt-30 wow fadeInUp" data-wow-delay="500ms" href="../frontend/dreamwaver_booking">Booking Now!</a>
 
                     </div>
                 </div>
@@ -174,7 +174,7 @@ dreamweaverphotography.bd@gmail.com</P>
 						<p class="wow fadeInUp" data-wow-delay="300ms">1 Top Associate Photographer</p>
 						<p class="wow fadeInUp" data-wow-delay="300ms">4 hrs Per Event</p>
 						<p class="wow fadeInUp" data-wow-delay="300ms">25000 BDT</p>
-               			<a class="btn alime-btn btn-2 mt-30 wow fadeInUp" data-wow-delay="500ms" href="#">Booking Now!</a>  <a class="btn alime-btn btn-2 mt-30 wow fadeInUp" data-wow-delay="500ms" href="#">Add to Cart</a>
+               			<a class="btn alime-btn btn-2 mt-30 wow fadeInUp" data-wow-delay="500ms" href="../frontend/dreamwaver_booking">Booking Now!</a>
 
                     </div>
                 </div>

@@ -79,7 +79,7 @@
                                     </li>
                                     <li><a href="../frontend/about">About</a></li>
                                     <li><a href="../frontend/gallery">Gallery</a></li>
-									<li><a href="../frontend/cart">Your Cart</a></li>
+									<li><a href="../frontend/cart">Your Bookings</a></li>
                                     <li><a href="../frontend/contact">Contact</a></li>
                                 </ul>
 
@@ -126,7 +126,7 @@
                         <p class="wow fadeInUp" data-wow-delay="300ms">Elegant Makeover & Fashion is a place for international hair makeover service and high branded makeup. We ensure the best quality for our clients. Our motive is client satisfaction. We take very limited clients so you must have appointment before coming.</p>
                         <p class="wow fadeInUp" data-wow-delay="300ms">Gorgeous heavy makeover with original products and highend makeup brands combined with saree and hairstyle</p>
 						<p class="wow fadeInUp" data-wow-delay="300ms">20000 BDT</p>
-                        <a class="btn alime-btn btn-2 mt-30 wow fadeInUp" data-wow-delay="500ms" href="#">Booking Now!</a>  <a class="btn alime-btn btn-2 mt-30 wow fadeInUp" data-wow-delay="500ms" href="#">Add to Cart</a>
+                        <a class="btn alime-btn btn-2 mt-30 wow fadeInUp" data-wow-delay="500ms" href="../frontend/dreamwaver_booking">Booking Now!</a>
 
                     </div>
                 </div>
@@ -144,7 +144,7 @@
                         <p class="wow fadeInUp" data-wow-delay="300ms"> Woman's World is a new generation, customer friendly & modern beauty salon, medical aesthetic clinic & beauty institution that continues its 20 year commitment to high quality service & educating women about beauty science, cosmetology & aesthetics.</p>
                         <p class="wow fadeInUp" data-wow-delay="300ms">Natural Makeover with original products with saree and hairstyle</p>
 						<p class="wow fadeInUp" data-wow-delay="300ms">12000 BDT</p>
-                        <a class="btn alime-btn btn-2 mt-30 wow fadeInUp" data-wow-delay="500ms" href="#">Booking Now!</a>  <a class="btn alime-btn btn-2 mt-30 wow fadeInUp" data-wow-delay="500ms" href="#">Add to Cart</a>
+                        <a class="btn alime-btn btn-2 mt-30 wow fadeInUp" data-wow-delay="500ms" href="../frontend/dreamwaver_booking">Booking Now!</a>
 
                     </div>
                 </div>
@@ -162,7 +162,7 @@
                         <p class="wow fadeInUp" data-wow-delay="300ms">We care about your choice, feel free to contact us for your special day.. brial.reception, party makeover, skin care,hair care/colour/rebounding &etc..</p>
                         <p class="wow fadeInUp" data-wow-delay="300ms">Semi gorgeous makeover with original makeup brands with saree and hairstyle</p>
 						<p class="wow fadeInUp" data-wow-delay="300ms">9000 BDT</p>
-                        <a class="btn alime-btn btn-2 mt-30 wow fadeInUp" data-wow-delay="500ms" href="#">Booking Now!</a>  <a class="btn alime-btn btn-2 mt-30 wow fadeInUp" data-wow-delay="500ms" href="#">Add to Cart</a>
+                        <a class="btn alime-btn btn-2 mt-30 wow fadeInUp" data-wow-delay="500ms" href="../frontend/dreamwaver_booking">Booking Now!</a>
 
                     </div>
                 </div>

@@ -79,7 +79,7 @@
                                     </li>
                                     <li><a href="../frontend/about">About</a></li>
                                     <li><a href="../frontend/gallery">Gallery</a></li>
-									<li><a href="../frontend/cart">Your Cart</a></li>
+									<li><a href="../frontend/cart">Your Bookings</a></li>
                                     <li><a href="../frontend/contact">Contact</a></li>
                                 </ul>
 
@@ -128,7 +128,7 @@
 						<p class="wow fadeInUp" data-wow-delay="300ms">Hall Capacity 1000</p>
 						<p class="wow fadeInUp" data-wow-delay="300ms">Hall Rent 125000 BDT</p>
 
-						<a class="btn alime-btn btn-2 mt-30 wow fadeInUp" data-wow-delay="500ms" href="#">Booking Now!</a>  <a class="btn alime-btn btn-2 mt-30 wow fadeInUp" data-wow-delay="500ms" href="#">Add to Cart</a>
+						<a class="btn alime-btn btn-2 mt-30 wow fadeInUp" data-wow-delay="500ms" href="../frontend/dreamwaver_booking">Booking Now!</a>
 
                     </div>
                 </div>
@@ -147,7 +147,7 @@
                         <p class="wow fadeInUp" data-wow-delay="300ms">http://www.shenkunja.org/ 01711-054907 info@shena.org </p>
 						<p class="wow fadeInUp" data-wow-delay="300ms">Hall Capacity 750</p>
 						<p class="wow fadeInUp" data-wow-delay="300ms">Hall Rent 80000 BDT</p>
-                        <a class="btn alime-btn btn-2 mt-30 wow fadeInUp" data-wow-delay="500ms" href="#">Booking Now!</a>  <a class="btn alime-btn btn-2 mt-30 wow fadeInUp" data-wow-delay="500ms" href="#">Add to Cart</a>
+                        <a class="btn alime-btn btn-2 mt-30 wow fadeInUp" data-wow-delay="500ms" href="../frontend/dreamwaver_booking">Booking Now!</a>
 
                     </div>
                 </div>

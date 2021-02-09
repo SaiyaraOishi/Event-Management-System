@@ -79,7 +79,7 @@
                                     </li>
                                     <li><a href="../frontend/about">About</a></li>
                                     <li><a href="../frontend/gallery">Gallery</a></li>
-									<li><a href="../frontend/cart">Your Cart</a></li>
+									<li><a href="../frontend/cart">Your Bookings</a></li>
                                     <li><a href="../frontend/contact">Contact</a></li>
                                 </ul>
 
@@ -127,7 +127,7 @@
                         <p class="wow fadeInUp" data-wow-delay="300ms">http://www.hajibiryani.org/ 017198-054344 hajibiriyanionline@gmail.com </p>
 						<p class="wow fadeInUp" data-wow-delay="300ms">Kacchi Biryani pp 250 BDT</p>
 						<p class="wow fadeInUp" data-wow-delay="300ms">Chicken Biryani pp 200 BDT</p>
-                        <a class="btn alime-btn btn-2 mt-30 wow fadeInUp" data-wow-delay="500ms" href="#">Booking Now!</a>  <a class="btn alime-btn btn-2 mt-30 wow fadeInUp" data-wow-delay="500ms" href="#">Add to Cart</a>
+                        <a class="btn alime-btn btn-2 mt-30 wow fadeInUp" data-wow-delay="500ms" href="../frontend/dreamwaver_booking">Booking Now!</a>
 
                     </div>
                 </div>
@@ -146,7 +146,7 @@
                         <p class="wow fadeInUp" data-wow-delay="300ms">http://www.hotcake.org/ 017198-054344 hotcakeonline@gmail.com </p>
 						<p class="wow fadeInUp" data-wow-delay="300ms">Chocolate Mudcake 1.5 pound 9,900 BDT</p>
 						<p class="wow fadeInUp" data-wow-delay="300ms">vanila Cake 1.5 pound 800 BDT</p>
-                        <a class="btn alime-btn btn-2 mt-30 wow fadeInUp" data-wow-delay="500ms" href="#">Booking Now!</a>  <a class="btn alime-btn btn-2 mt-30 wow fadeInUp" data-wow-delay="500ms" href="#">Add to Cart</a>
+                        <a class="btn alime-btn btn-2 mt-30 wow fadeInUp" data-wow-delay="500ms" href="../frontend/dreamwaver_booking">Booking Now!</a>
 
                     </div>
                 </div>
@@ -165,7 +165,7 @@
                         <p class="wow fadeInUp" data-wow-delay="300ms">http://www.zaffran.org/ 017598-954344 zaffran@gmail.com </p>
 						<p class="wow fadeInUp" data-wow-delay="300ms">Chicken Cutlet 4 piece 450 BDT</p>
 						<p class="wow fadeInUp" data-wow-delay="300ms">Beef Steak 350 BDT</p>
-                        <a class="btn alime-btn btn-2 mt-30 wow fadeInUp" data-wow-delay="500ms" href="#">Booking Now!</a>  <a class="btn alime-btn btn-2 mt-30 wow fadeInUp" data-wow-delay="500ms" href="#">Add to Cart</a>
+                        <a class="btn alime-btn btn-2 mt-30 wow fadeInUp" data-wow-delay="500ms" href="../frontend/dreamwaver_booking">Booking Now!</a>
 
                     </div>
                 </div>

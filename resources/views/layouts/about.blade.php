@@ -79,7 +79,7 @@
                                     </li>
                                     <li class="active"><a href="../frontend/about">About</a></li>
                                     <li><a href="../frontend/gallery">Gallery</a></li>
-									<li><a href="../frontend/cart">Cart</a></li>
+									<li><a href="../frontend/cart">your Bookings</a></li>
                                     <li><a href="../frontend/contact">Contact</a></li>
                                 </ul>
 

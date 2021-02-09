@@ -79,7 +79,7 @@
                                     </li>
                                     <li><a href="../frontend/about">About</a></li>
                                     <li><a href="../frontend/gallery">Gallery</a></li>
-									<li><a href="../frontend/cart">Your Cart</a></li>
+									<li><a href="../frontend/cart">Your Bookings</a></li>
                                     <li><a href="../frontend/contact">Contact</a></li>
                                 </ul>
 
@@ -126,7 +126,7 @@
                         <p class="wow fadeInUp" data-wow-delay="300ms">Customize your dream invitation cards with our imaginative and creative touch.</p>
                         <p class="wow fadeInUp" data-wow-delay="300ms">Wedding Custom Card Per 150-300 BDT</p>
 						<p class="wow fadeInUp" data-wow-delay="300ms">Birthday Invitation Card 100-250 BDT</p>
-                        <a class="btn alime-btn btn-2 mt-30 wow fadeInUp" data-wow-delay="500ms" href="#">Booking Now!</a>  <a class="btn alime-btn btn-2 mt-30 wow fadeInUp" data-wow-delay="500ms" href="#">Add to Cart</a>
+                        <a class="btn alime-btn btn-2 mt-30 wow fadeInUp" data-wow-delay="500ms" href="../frontend/dreamwaver_booking">Booking Now!</a>
                     </div>
                 </div>
                 <div class="col-12 col-lg-6">
@@ -143,7 +143,7 @@
                         <p class="wow fadeInUp" data-wow-delay="300ms">Invite your loved ones with the best and most creative cards. Hope we deliver the best in your service. </p>
                         <p class="wow fadeInUp" data-wow-delay="300ms">Wedding Custom Card 500-650 BDT</p>
 						<p class="wow fadeInUp" data-wow-delay="300ms">Birthday Invitation Card 400-550 BDT</p>
-                        <a class="btn alime-btn btn-2 mt-30 wow fadeInUp" data-wow-delay="500ms" href="#">Booking Now!</a>  <a class="btn alime-btn btn-2 mt-30 wow fadeInUp" data-wow-delay="500ms" href="#">Add to Cart</a>
+                        <a class="btn alime-btn btn-2 mt-30 wow fadeInUp" data-wow-delay="500ms" href="../frontend/dreamwaver_booking">Booking Now!</a>
 
                     </div>
                 </div>

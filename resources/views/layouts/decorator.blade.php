@@ -79,7 +79,7 @@
                                     </li>
                                     <li><a href="../frontend/about">About</a></li>
                                     <li><a href="../frontend/gallery">Gallery</a></li>
-									<li><a href="../frontend/cart">Your Cart</a></li>
+									<li><a href="../frontend/cart">Your Bookings</a></li>
                                     <li><a href="../frontend/contact">Contact</a></li>
                                 </ul>
 
@@ -126,7 +126,7 @@
                         <p class="wow fadeInUp" data-wow-delay="300ms">Decorate your magical event with the best quality decorators in town . Our offers and packages at a reasonable price won't fail to amaze you.</p>
                         <p class="wow fadeInUp" data-wow-delay="300ms">Wedding Stage 72000 BDT</p>
 						<p class="wow fadeInUp" data-wow-delay="300ms">Gaye Holud Stage 45000 BDT</p>
-                        <a class="btn alime-btn btn-2 mt-30 wow fadeInUp" data-wow-delay="500ms" href="../frontend/form">Booking Now!</a>  <a class="btn alime-btn btn-2 mt-30 wow fadeInUp" data-wow-delay="500ms" href="#">Add to Cart</a>
+                        <a class="btn alime-btn btn-2 mt-30 wow fadeInUp" data-wow-delay="500ms" href="../frontend/dreamwaver_booking">Booking Now!</a>
 
                     </div>
                 </div>
@@ -144,7 +144,7 @@
                         <p class="wow fadeInUp" data-wow-delay="300ms"> Make your family functions and programmes bold like the colour indigo with a touch of floral essence.</p>
                          <p class="wow fadeInUp" data-wow-delay="300ms">Wedding Stage 55000 BDT</p>
 						<p class="wow fadeInUp" data-wow-delay="300ms">Birthday Decor 25000 BDT</p>
-                        <a class="btn alime-btn btn-2 mt-30 wow fadeInUp" data-wow-delay="500ms" href="../frontend/form">Booking Now!</a>  <a class="btn alime-btn btn-2 mt-30 wow fadeInUp" data-wow-delay="500ms" href="#">Add to Cart</a>
+                        <a class="btn alime-btn btn-2 mt-30 wow fadeInUp" data-wow-delay="500ms" href="../frontend/dreamwaver_booking">Booking Now!</a>
 
                     </div>
                 </div>
