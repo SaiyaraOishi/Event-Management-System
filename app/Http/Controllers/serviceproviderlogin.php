@@ -35,5 +35,14 @@ class serviceproviderlogin extends Controller
 
 
     }
-//nothing
+    public function rejectOrder($order_id)
+    {
+        $order = dreamwaver_booking::findOrFail($order_id);
+        $order->status = 'rejected';
+        $order->save();
+
+
+    }
+
+
 }
