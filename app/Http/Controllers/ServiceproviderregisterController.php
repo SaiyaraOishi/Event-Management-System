@@ -23,7 +23,7 @@ class ServiceproviderregisterController extends Controller
         $sp->password = $request->sppassword;
         $query=$sp->save();
         if($query){
-            return "registration successful!!!";
+            return redirect('serviceproviderlogin');
         }
     }
 

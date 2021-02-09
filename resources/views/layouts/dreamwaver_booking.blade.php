@@ -59,6 +59,10 @@
                     <label for="text-7559" class="u-label u-text-palette-2-base u-label-5">Service Provider Name</label>
                     <input type="text" placeholder="Service Provider Name" id="text-7559" name="service_provider_name" class="u-border-1 u-border-white u-input u-input-rectangle u-radius-8 u-text-white">
                 </div>
+                <div class="u-form-group u-form-group-5">
+                    <label for="text-7559" class="u-label u-text-palette-2-base u-label-5">Details</label>
+                    <input type="text" placeholder="details" id="text-7559" name="details" class="u-border-1 u-border-white u-input u-input-rectangle u-radius-8 u-text-white">
+                </div>
                 <div class="u-align-center u-form-group u-form-submit">
 {{--                    <a  class="u-active-white u-border-0 u-btn u-btn-round u-btn-submit u-button-style u-custom-color-2 u-hover-palette-1-light-2 u-radius-19 u-btn-1"   >SUBMIT<br>--}}
 {{--                    </a>--}}

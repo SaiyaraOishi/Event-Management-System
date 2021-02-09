@@ -21,6 +21,7 @@ class CreateDreamwaverBookingsTable extends Migration
             $table->date('date');
             $table->text('time');
             $table->text('service_provider_name');
+            $table->text('details');
             $table->text('status');
             $table->timestamps();
         });

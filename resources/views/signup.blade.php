@@ -86,7 +86,7 @@
                             <p data-animation="bounceInDown" data-delay="500ms">Getting tired of planning your events? Is finding a good party planner becoming tough for you? Don't worry Evager has got you covered. Select from our wide variety of party planning service providers and confirm your deals with just one click!
                             </p>
                             <div class="hero-btn-group" data-animation="bounceInDown" data-delay="100ms">
-                                <a href="{{ route('register')}}" class="btn alime-btn mb-3 mb-sm-0 mr-4">Sign Up</a><a href="{{ route('login')}}" class="btn alime-btn mb-3 mb-sm-0 mr-4">Login</a>
+                                <a href="{{ route('register')}}" class="btn alime-btn mb-3 mb-sm-0 mr-4">Customer Sign Up</a><a href="{{ route('login')}}" class="btn alime-btn mb-3 mb-sm-0 mr-4">Customer Login</a>
                             </div>
 
 
@@ -108,7 +108,7 @@
                             <p data-animation="bounceInDown" data-delay="500ms">Getting tired of planning your events? Is finding a good party planner becoming tough for you? Don't worry Evager has got you covered. Select from our wide variety of party planning service providers and confirm your deals with just one click!
                             </p>
                             <div class="hero-btn-group" data-animation="bounceInDown" data-delay="100ms">
-                                <a href="{{ route('register')}}" class="btn alime-btn mb-3 mb-sm-0 mr-4">Sign Up</a><a href="{{ route('login')}}" class="btn alime-btn mb-3 mb-sm-0 mr-4">Login</a>
+                                <a href="/serviceproviderRegister" class="btn alime-btn mb-3 mb-sm-0 mr-4">ServiceProviderSignUp</a><a href="/serviceproviderlogin" class="btn alime-btn mb-3 mb-sm-0 mr-4">Service Provider Login</a>
                             </div>
 
 

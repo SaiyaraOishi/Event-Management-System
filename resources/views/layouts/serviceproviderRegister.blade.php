@@ -1,10 +1,12 @@
+<link rel="stylesheet" href="../frontend/style3.css">
+
 <div class="right_col" role="main">
     <div class="col-md-12 col-sm-12 col-xs-12">
         <div class="x_panel">
             <div class="x_title">
                 <h1>Registration<br><small>Service Provider</small> </h1>
 
-
+ <div class="container">
                 <form action="spregister" method="POST" class="form-horizontal form-label-left">
 
                     @csrf
@@ -63,7 +65,7 @@
                         </div>
                     </div>
                 </form>
-
+ </div>
 
             </div>
         </div>
@@ -71,4 +73,5 @@
 
 
 </div>
+
 

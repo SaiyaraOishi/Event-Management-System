@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="../frontend/style3.css">
+<div>
 <h1>Login<br><small>Service Provider</small></h1>
 
 <form action="splogin" method="POST">
@@ -13,3 +15,4 @@
 
     <button type="submit" >Login</button>
 </form>
+</div>

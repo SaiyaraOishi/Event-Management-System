@@ -32,7 +32,8 @@ class serviceproviderlogin extends Controller
         $order = dreamwaver_booking::findOrFail($order_id);
         $order->status = 'approved';
         $order->save();
-
+       //return redirect('serviceProviderDashboard');
+        return "Approved";
 
     }
     public function rejectOrder($order_id)
@@ -40,7 +41,7 @@ class serviceproviderlogin extends Controller
         $order = dreamwaver_booking::findOrFail($order_id);
         $order->status = 'rejected';
         $order->save();
-
+        return "Rejected";
 
     }
 
