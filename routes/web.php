@@ -76,6 +76,7 @@ Route::get('/dreamwaver_booking', function () {
 });
 
 Route::get('approve-order/{order_id}', [serviceproviderlogin::class, 'approveOrder'])->name('approve.order');
+Route::get('reject-order/{order_id}', [serviceproviderlogin::class, 'rejectOrder'])->name('reject.order');
 
 Route::post('book',[OrderBookingController::class,'index'])->name('OrderBookingController.book');
 Route::get('/serviceproviderRegister', function () {

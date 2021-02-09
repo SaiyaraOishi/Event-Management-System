@@ -66,7 +66,7 @@
                 <td scope="row">{{$order['updated_at']}}</td>
                 <td scope="row">
                     <a href="{{ route('approve.order',  $order['id']) }}" class="btn btn-primary">APPROVE</a>
-                    <a href="" class="btn btn-danger">REJECT</a>
+                    <a href="{{ route('reject.order',  $order['id']) }}" class="btn btn-danger">REJECT</a>
                 </td>
             </tr>
         @endforeach
